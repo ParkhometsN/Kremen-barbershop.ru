@@ -1,0 +1,215 @@
+html,body{
+    background-color: #EFEFEF;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание */
+    align-items: center;    /* Вертикальное выравнивание */
+    font-family: Arial, sans-serif; /* Необязательно, для красоты текста */
+    font-family: "Roboto", sans-serif;
+}
+.fergrgd,
+.fergrg{
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+}
+.modal_window{
+    visibility: hidden;
+    position: absolute;
+    z-index: 10;
+    margin-top: -430px;
+}
+.modal_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 29px;
+    padding: 20px;
+}
+.modal_content h4{
+    padding-bottom: 10px;
+}
+h2{
+    display: block;
+    font-size: 1.2em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+h5,h4 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.personald,
+.personal{
+    background-color: white;
+    border-radius: 29px;
+    
+}
+.butt{
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+.name_of_barber{
+    font-size: 24px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.fregwegd,
+.fregweg{
+    padding: 5px 20px 20px 20px;
+}
+button{
+    border: 2px solid #3793ff;
+    border-radius: 30px;
+    padding: 5px 10px 6px 9px;
+    color: white;
+    opacity: 1;
+    background-color: #3793ff;
+}
+.poweifjoeirf{
+    display: flex;
+    flex-direction: column;
+}
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.3;
+}
+.qwef{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+.qwdjnqwdnoiqwouqdo{
+    padding: 10px 10px 10px 10px;
+}
+
+.container_picture_barber img{
+    width: 70px;
+    border-radius: 9px;
+}
+.masters{
+    align-items: center;
+    padding: 10px;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    border-radius: 20px;
+}
+.container_picture_barber{
+    padding-right: 13px;
+}
+
+.modal{
+    position: absolute;
+    visibility: hidden;
+}
+.qwefnqwef{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 54px;
+}
+.add_content{
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+}
+.add_barberd,
+.modal_add_barber{
+    margin-top: -700px;
+    position: fixed;
+    z-index: 10;
+    margin-top: -934px;
+    visibility: hidden;
+    box-shadow: 1px 18px 78px #00000080;
+    border-radius: 30px;
+}
+.modal_add_barber.open{
+    visibility: visible;
+}
+  .inputs{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .inputs input{
+    border: 2px solid #3793ff;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+
+
+
+  /* From Uiverse.io by csemszepp */ 
+.custum-file-upload {
+    margin-top: 20px;
+    height: 118px;
+    width: 242px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #3793ff;
+    background-color: #efefef;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 48px 35px -48px #e8e8e8;
+  }
+  .wedwef{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .custum-file-upload .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custum-file-upload .icon svg {
+    height: 80px;
+    fill: #3793ff;
+  }
+  
+  .custum-file-upload .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custum-file-upload .text span {
+    font-weight: 400;
+    color: #000000;
+  }
+  
+  .custum-file-upload input {
+    display: none;
+  }
+
+  .modal_window.fixed {
+    visibility: visible;
+    position: fixed; /* Фиксированное позиционирование для модального окна */
+}

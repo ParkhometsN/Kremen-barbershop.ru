@@ -1,0 +1,1720 @@
+@media screen and (max-width: 1000px){
+    .advatige_items ul {
+        margin-top: 50px;
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5vw; 
+        list-style-type: none; 
+        padding: 0; 
+        margin: 0; 
+    }
+    .absolut_glist_masters{
+        float: right;
+        display: block;
+    }
+    .second_line_static_in img {
+        width: 51.6vw;
+        filter: blur(3vw);
+    }
+    .content_for_nav {
+        margin-top: 10px;
+        display: block;
+    }
+    .desctiprion_of_card_curse {
+        opacity: 0;
+        width: 61vw;
+        font-size: 3vw;
+        transition: opacity 0.5s ease;
+        position: relative;
+        z-index: 2;
+    }
+
+    .main_price_inforation_card h5 {
+        font-family: "small";
+        font-size: 8vw;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        font-weight: 400;
+    }
+    .desccourse {
+        font-family: "small";
+        font-size: 3vw;
+        width: 64vw;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        font-weight: 400;
+    }
+    .title_namme_of_card_curs h2 {
+        font-family: "gg";
+        font-size: 7vw;
+        width: 29vw;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        line-height: 8vw;
+        letter-spacing: 0vw;
+    }
+    .container_line_static_whar_we {
+        /* padding: 0px 75px 75px 75px; */
+        padding: 3vw;
+    }
+    .setka_of_what_we {
+        white-space: wrap;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2vw;
+    }
+    .first_line_of_text{
+        display: flex;
+    }
+    .background_of_block_we {
+        background-color: white;
+        color: black;
+        justify-content: flex-start;
+        display: flex;
+        width: 100%;
+        height: 23vw;
+        border-radius: 5vw;
+    }
+    .text_block_what_we h4 {
+        font-size: 2.1vw;
+        margin-block-start: 0.5vw;
+        margin-block-end: 0vw;
+    }
+    .background_of_block_we h2 {
+        margin-block-start: 0vw;
+        margin-block-end: 0vw;
+        font-family: "small";
+        font-size: 4vw;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .background_of_block_we img {
+        width: 13vw;
+        padding-left: 4vw;
+        padding-right: 2vw;
+    }
+    .teachers_title {
+        padding-left: 3vw;
+        font-family: 'guntez';
+        font-size: 6.3vw;
+    }
+    .title_namme_of_card_cursss h2 {
+        font-family: "gg";
+        font-size: 10vw;
+        width: 87vw;
+        color: white;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        line-height: 10vw;
+        letter-spacing: 0vw;
+    }
+    .title_namme_of_card_cursss p {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        color: #3793ff;
+    }
+    .courses_block_title_firts::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/zerobarbmob.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 1;
+        border-radius: 5vw;
+        transition: opacity 0.5s ease;
+        z-index: 1;
+    }
+    .courses_block_title_second {
+        position: relative;
+        height: 67vh;
+        border-radius: 2vw;
+        overflow: hidden;
+        transition: all 0.5s ease;
+        color: white;
+    }
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 1px;
+        unicode-bidi: isolate;
+    }
+    .courses_block_title_second::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/cvalification.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 1;
+        border-radius: 5vw;
+        transition: opacity 0.5s ease;
+        z-index: 1;
+    }
+    .price_and_desc_iinformation {
+        position: relative;
+        z-index: 2;
+        padding: 5vw 2vw 0vw 5vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 90%;
+        align-items: flex-start;
+    }
+    .closed_app svg{
+        width: 5vw;
+        padding-top: 5px;
+        color: black;
+    }
+    .content_for_nav.opena {
+        margin-top: 10px;
+        display: block;
+    }
+    .desc_fil h1{
+        font-size: 6.3vw;
+    }
+    .container_about_us_fil h2{
+        font-size: 3.2vw;
+    }
+    .container_about_us_fil {
+        flex-direction: column-reverse;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .right_desck_ab_fil, .left_desck_ab_fil {
+        width: 100%;
+    }
+    .barbers_items {
+        display: flex;
+        width: 100%;
+        white-space: nowrap;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3vw;
+        justify-content: space-between;
+        position: relative;
+        z-index: 10;
+    }
+    .container_about_us_fil h4 {
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        font-family: "raptor";
+        font-size: 4.2vw;
+        padding-bottom: 30px;
+    }
+    .container_about_us_fil img {
+        width: 100%;
+        height: 73vw;
+        object-fit: cover;
+        border-radius: 2vw;
+    }
+    .container_picture_barber {
+        width: 43.4vw;
+        height: 51vw;
+    }
+    .barbers_yc {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    .barbers_item img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 3vw;
+        border: 0.5vw solid white;
+    }
+    .category h5 {
+        padding-top: 3vw;
+        font-family: "giest_bold";
+        font-size: 4.2vw;
+    }.name_of_barber h5 {
+        font-family: 'giest_regular';
+        padding-top: 1vw;
+        padding-bottom: 4vw;
+        font-size: 2.5vw;
+    }
+    #services-content {
+        padding-right: 0px;
+    }
+    .title_of_complex_name {
+        font-size: 4.3vw;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .sale{
+        display: none;
+    }
+    footer {
+        padding: 0px 20px 0px 20px;
+    }
+    form {
+        position: relative;
+        overflow: hidden;
+        background-color: #ffffff;
+        width: 59vw;
+        object-fit: cover;
+        height: 100%;
+        border-radius: 30px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    .opa_button{
+        padding-bottom: 40px;
+    }
+    .text_attantion {
+        font-size: 10px;
+        font-family: 'raptormedo';
+        opacity: 0.8;
+        width: 40vw;
+        padding-bottom: 40px;
+    }
+    .title_of_block h1 {
+        font-size: 18vw;
+        color: white;
+        font-family: "radis";
+        margin-block-end: 0em;
+    }
+    .question_item {
+        width: 100%;
+    }
+    .title_ofsend_form {
+        font-family: 'giest_semibold';
+        font-size: 7.5vw;
+        width: 66vw;
+        font-weight: 100;
+        line-height: 6vw;
+        padding-bottom: 7vw;
+        padding-top: 13vw;
+        letter-spacing: -0.1vw;
+    }
+    input[type="text"] {
+        color: white;
+        width: 40vw;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 3px solid #393939;
+        border-radius: 1vw;
+        height: 5vw;
+        box-sizing: border-box;
+        font-size: 16px;
+        background-color: #222222;
+        transition: border 0.5s ease;
+    }
+    .question_but q {
+        font-family: "raptor";
+        font-size: 3vw;
+    }
+    .toggle-btn {
+        font-size: 6vw;
+    }
+    .toggle-btnn {
+        font-size: 6vw;
+    }
+    .answer.question {
+        visibility: visible;
+        opacity: 1;
+        font-size: 2.2vw;
+        padding-bottom: 16px;
+    }
+    .networlkpadleft span svg {
+        width: 16vw;
+    }
+    .networlkpadright span svg {
+        width: 16vw;
+    }
+    .map_stiles{
+        width: 100%;
+        height: 70vh;
+        border-radius: 8.2vw;
+    }
+    #map > ymaps {
+        border-radius: 3vw;
+        overflow: hidden;
+        }
+    .mail_nimber p a{
+        text-decoration: none;
+        color: white;
+        font-family: "button";
+        font-size: 3vw;
+    }
+    .footer_navigation_links ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 7.1vw;
+        font-family: 'raptormedo';
+    }
+    .mail_nimber p {
+        margin-block-start: 0em;
+        margin-block-end: 3vw;
+        padding-inline-start: 0px;
+    }
+    .up_line {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_navigation_links ul {
+        display: flex;
+        list-style-type: none;
+        gap: 2.5vw;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        padding-inline-start: 0px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .infoprmatiuon_blick {
+        z-index: 4;
+        /* padding-right: 15px; */
+        visibility: hidden;
+        position: absolute;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        padding: 25px;
+        transition: opacity 0.5s ease;
+    }
+    .title_andimg h1 {
+        padding: 2vw 0vw 0px 4.3vw;
+        font-size: 7vw;
+        color: black;
+        margin-block-end: 0em;
+        font-family: "radis";
+    }
+    .create_paddings_mob{
+        margin-top: 39px;
+    }
+    .blackdd_background h4 {
+        color: white;
+        width: 52vw;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        font-size: 3vw;
+        padding: 20px;
+        font-family: "raptor";
+    }
+    .opaaaaaaa {
+        padding: 0px 0vw 0px 0vw;
+    }
+    .block_inf_static_descc {
+        padding-top: 0vw;
+    }
+    .container_statistic_information {
+        padding: 3vw;
+        display: flex;
+        height: 100%;
+        gap: 2vw;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }.content_padding_static{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2vw;
+
+    }
+    .absolut_glist_masters img {
+        position: absolute;
+        z-index: 1;
+        width: 43vw;
+        margin-top: 173vw;
+        margin-left: -39vw;
+    }
+    .opa_activ {
+        margin-top: -55vh;
+        padding-left: 1.1vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 85vw;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .links a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-decoration: none;
+        color: white;
+        opacity: 0.4;
+        font-size: 2.6vw;
+        letter-spacing: 1px;
+        font-family: "raptor";
+    }
+    .border_question_answer {
+        padding: 1vw 0px 0.1vw 0px;
+    }
+    .footer_content_for_nav p{
+        font-size: 6.7vw;
+    }
+    .img_grapggggg {
+        position: absolute;
+        margin-left: -206px;
+        margin-top: -30px;
+    }
+    .text_block_ehat {
+        padding-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        flex-direction: column;
+    }
+    .footer_content_for_nav {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .vegancy_block_container {
+        position: relative;
+        overflow: hidden;
+        background-color: #ffffff;
+        width: 100%;
+        object-fit: cover;
+        height: 910px;
+        border-radius: 30px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    .logo_kremen svg{
+        width: 94vw;
+    }
+    .background_header_filial{
+        background-image: url('../img/mobole_background_filial.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .opapapapapa_question {
+        display: grid;
+        padding-left: 2.3vw;
+        grid-template-columns: 11vw 17vw 5vw 0vw;
+        align-items: center;
+    }
+    .sign_ing_haircutsec {
+        cursor: pointer;
+        padding-left: 0vw;
+        padding-bottom: 20px;
+    }
+    .sign_ing_haircut {
+        padding: 0;
+        font-family: "button";
+        background-color: white;
+        height: 16vw;
+        color: black;
+        width: 94vw;
+        font-size: 4vw;
+        border: none;
+        border-radius: 2.5vw;
+    }
+    
+    .logo_kremen{
+        padding-bottom: 20px;
+    }
+    .novocher {
+        display: flex;
+        padding: 3vw;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .slider_whitebackground {
+        background-color: white;
+        margin-top: 27vh;
+        width: 100%;
+        margin-right: 0px;
+        border-radius: 5vw;
+    }
+    .container_slider {
+        padding: 3vw;
+    }
+    .online_sign_up button {
+        width: 100%;
+        border: none;
+        background-color: black;
+        color: white;
+        font-family: "button";
+        font-size: 2.9vw;
+        height: 9.5vw;
+        border-radius: 3.2vw;
+    }
+    .container_teachers {
+        padding: 3vw;
+    }
+    .teacher_item img {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        object-fit: cover;
+        border-radius: 5.5vw;
+        border: 0.8vw solid #0073FA;
+    }
+    .dop_information_opapapa {
+        height: 88vw;
+    }
+    .text_block_hwat_we_title h2 {
+        margin-block-start: 1em;
+        margin-block-end: 0.3em;
+        font-family: "gg";
+        line-height: 3vw;
+        font-size: 8vw;
+    }
+    .grapfic_elementsss img {
+        position: absolute;
+        z-index: 1;
+        filter: blur(30px);
+        width: 100%;
+        margin-top: -269vw;
+    }
+    .text_block_hwat_we_title h4 {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        font-size: 3vw;
+        font-family: "small";
+        font-weight: 400;
+    }
+    .title_of_what_we_block {
+        display: flex;
+        z-index: 10;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+    }
+    .text_block_hwat_we_title {
+        width: 78vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .wefwe{
+        color: #3793ff;
+    }
+    .container_podrobnee {
+        position: relative;
+        padding: 10vw;
+        /* padding: 0px 75px 75px 75px; */
+        z-index: 5;
+    }
+
+    .left_podrobnee h2 {
+        font-family: "gg";
+        bottom: 0;
+        font-size: 8.5vw;
+        line-height: 9.5vw;
+        text-align: center;
+        margin-block-start: 1em;
+        margin-block-end: 0em;
+    }
+    .content_podrobnee {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2vw;
+        flex-direction: column;
+    }
+    .text_block_hwat_we_title h3 {
+        margin-block-start: 0.1em;
+        margin-block-end: 0em;
+        font-family: "gg";
+        font-size: 7vw;
+    }
+    .bole_wht_to_do h4 {
+        margin-block-start: 0em;
+        margin-block-end: 1em;
+        font-size: 3.2vw;
+        font-family: "small";
+        font-weight: 300;
+    }
+    .bole_wht_to_do {
+        width: 76vw;
+        height: 11vw;
+    }
+    .container_line_static_dop_what_we h2 {
+        width: 74vw;
+        line-height: 6.4vw;
+        height: 27vw;
+        font-family: "small";
+        font-size: 7.75vw;
+        font-weight: 500;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+    .right_podrobnee h2 {
+        font-family: "small";
+        font-weight: 500;
+        font-size: 6vw;
+        margin-block-start: 1em;
+        margin-block-end: 0em;
+        line-height: 5.8vw;
+    }
+    .right_podrobnee h4 {
+        font-size: 3.2vw;
+        margin-block-start: 1em;
+        margin-block-end: 1.5em;
+    }
+    .container_line_static_dop_what_we {
+        display: flex;
+        justify-content: space-between;
+        gap: 4.5vw;
+        padding: 3vw;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right_podrobnee, .left_podrobnee {
+        width: 100%;
+        flex: 1;
+    }
+    .teachers_block {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+    .links {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .container_for_model_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5.5vw;
+    }
+    .container_for_model_img {
+        width: 100%;
+        height: 91.5vw;
+        padding-bottom: 2vw;
+    }
+    .button_logo_networks {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .network_links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* justify-content: center; */
+    }
+    .desc_static_ing {
+        padding: 0vw;
+    }
+    .white_block_inf_static h3 {
+        font-family: "small";
+        font-weight: 500;
+        font-size: 7.2vw;
+        margin-block-start: 00.3em;
+        margin-block-end: 0.5em;
+        padding: 0px;
+    }
+    .container_line_static_xuyaticx {
+    padding: 3.3vw;
+    z-index: 190;
+    }
+    .mmore_more h3, .title_ewufnd h3, .block_title_static h3 {
+        font-family: "small";
+        font-weight: 700;
+        font-size: 12vw;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+    .title_ewufnd h5, .block_title_static h5, .mmore_more h5 {
+        font-size: 5vw;
+        margin-block-start: 0.3vw;
+        margin-block-end: 1.67em;
+    }
+    .white_block_inf_static h5, .title_ewufnd h5, .block_inf_static_desc h4, .block_inf_static_descc h4 {
+        font-weight: 500;
+        font-family: "small";
+        font-size: 3.4vw;
+        margin-block-start: 0em;
+        margin-block-end: 1em;
+        padding-bottom: 1.2vw;
+        width: 100%;
+    }
+    .grapficglistundex{
+        display: none;
+    }
+    .second_line_static_in {
+        background-color: white;
+        color: black;
+        border-radius: 5.5vw;
+        z-index: 1;
+        object-fit: cover;
+    }
+    .websitebutton_static {
+        padding-top: 2.8vw;
+    }
+    .first_line_block_white {
+        height: 100%;
+        width: 100%;
+    }
+    .title_ewufn {
+    padding: 3.3vw;
+    }  
+    .title_ewufn h4 {
+    font-size: 3vw;
+    }
+    .second_line_block_white, .first_line_block_white {
+        background-color: white;
+        color: black;
+        border-radius: 5.5vw;
+    }
+    .second_line_block_white {
+    padding: 3.3vw;
+    }
+    .web_dwodijwed {
+        padding-bottom: 1.8vw;
+    }
+    .white_block_inf_static {
+        color: black;
+        background-color: white;
+        border-radius: 5.5vw;
+        padding: 3.3vw;
+    }
+    .courses_block {
+        padding: 8vw 3vw 3vw 3vw;
+        margin: 0;
+    }
+    .courses_block_title_first {
+        background-image: url(../img/zerobarb.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 56vh;
+        opacity: 1;
+        border-radius: 5vw;
+        transition: all 0.5s ease;
+    }
+    .block_inf_static_desc {
+        margin-top: 0vw;
+    }
+    .courses_block_title_second{
+        border-radius: 5vw;
+    }
+    .container_statistic_information a {
+        text-decoration: none;
+        color: black;
+        opacity: 0.5;
+        padding: 2vw;
+        font-size: 3.8vw;
+        border-radius: 15px;
+        border: 0.2vw solid black;
+        transition: all 0.5s ease;
+    }
+    .second_line_content {
+        display: flex;
+        flex-direction: column;
+    }
+    .background_header{
+        background-image: url('../img/mobile_background_main.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 130vh;
+    }
+    .advatige_items ul img{
+        width: 100%;
+    }
+    .container_main {
+        padding: 3vw;
+    }
+    .advatige_items{
+        padding-top: 4vw;
+    }
+    .advatige_items img{
+        border-radius: 2vw;
+    }
+    .vegancy_block_text {
+        font-family: "radis";
+        font-size: 4vw;
+        width: 50vw;
+    }
+    .vegancy_block_text_title {
+        font-family: 'guestvariabble';
+        font-size: 22px;
+        width: 310px;
+        font-weight: 800;
+    }
+    .left_block_s nav {
+        width: 370px;
+    }
+    .opapapapapa_masters {
+        display: grid;
+        grid-template-columns: 13vw 13vw 13vw 0vw;
+        align-items: center;
+    }
+    .left_block_s {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .left_block_s nav ul {
+        display: flex;
+        font-size: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .vegancy_block {
+        padding-bottom: 50px;
+        padding: 3vw;
+    }
+    .img_and_desc {
+        display: flex;
+        flex-direction: column;
+    }
+    .second_block {
+        /* padding-top: 80px; */
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .text {
+        font-family: "gg";
+        font-size: 3vw;
+        width: 0.1vw;
+        padding-left: 3.4vw;
+    }
+    .photo img{
+        width: 40vw;
+        height: 90vw;
+        object-fit: cover;
+        border-radius: 2vw;
+    }
+    .container_academia {
+        padding: 20px;
+        padding-bottom: 15vw;
+    }
+    .whitebackground {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 128vw;
+        background-color: white;
+        border-radius: 30px;
+    }
+    .manities_text {
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: none;
+        padding-bottom: 40px;
+    }
+    .service-container {
+        width: 87vw;
+    }
+    .opapapapapa {
+        display: grid;
+        grid-template-columns: 13vw 13vw 13vw 0vw;
+    }
+    .service-row {
+        display: grid;
+        grid-template-columns: 37vw 7vw 7vw 0vw;
+        align-items: baseline;
+    }
+    .ser_but button {
+        background-color: #000000;
+        color: white;
+        font-family: "coold";
+        font-size: 3vw;
+        padding: 1vw 2vw 1vw 2vw;
+        border-radius: 30px;
+        border: 2px solid transparent;
+        box-shadow: 0;
+        transition: color 300ms ease, background-color 300ms ease;
+    }
+    .hairdresserr {
+        font-family: 'coold';
+        padding-bottom: 24px;
+    }
+    
+    .service-price {
+        font-family: "small";
+        font-size: 2.5vw;
+        font-weight: 500;
+    }
+    .service-rowww {
+        display: grid;
+        grid-template-columns: 39vw 13vw 14vw 0vw;
+        align-items: center;
+        align-items: end;
+    }
+    .service-row {
+        display: grid;
+        grid-template-columns: 37vw 14vw 14vw 0vw;
+        /* align-items: center; */
+    }
+    .service-name {
+        text-align: left;
+        white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: anywhere;        
+        overflow: visible;
+        font-weight: 100;
+        font-size: 3vw;
+        font-family: 'giest_semibold';
+        text-overflow: ellipsis;
+        margin-bottom: 3vw;
+    }
+    .service-rowser {
+        display: grid;
+        grid-template-columns: 0vw 19vw 8vw 4.5vw;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .hover_serv button {
+        font-family: "coold";
+        background-color: black;
+        color: white;
+        font-size: 2.4vw;
+        padding: 0vw 1vw 0vw 1vw;
+        border-radius: 60px;
+        border: none;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        transition: color 300ms ease, background-color 300ms ease;
+    }
+
+    .line_black {
+        width: 100%;
+        background-color: #000000;
+        height: 3px;
+        margin-bottom: 2.8vw;
+    }
+    .graphic-element {
+        visibility: hidden;
+        position: absolute;
+        margin-left: -90px;
+        width: 45vw;
+        bottom: 0;
+    }
+    .white_background_academia {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 5vw;
+        overflow: hidden;
+        z-index: 2;
+    }
+    .right_text_inf_academia {
+        z-index: 0;
+        color: black;
+        /* padding: 40px 0px 0px 60px; */
+        padding: 8vw;
+    }
+    .right_text_inf_academia h1 {
+        font-family: "radis";
+        width: 80vw;
+        font-size: 6vw;
+        margin-block-start: 0em;
+    }
+    .desk_aca h4 {
+        font-family: "raptor";
+        width: 70vw;
+        font-size: 4.2vw;
+    }
+    .right_text_inf_academia button {
+        padding: 3vw;
+        border: none;
+        background-color: #0073FA;
+        color: white;
+        font-size: 4vw;
+        font-family: "usual";
+        border-radius: 2.7vw;
+    }
+    .main_position_academia{
+        margin: 0;
+    }
+    .text h5 {
+        font-family: "g9";
+        font-size: 2.5vw;
+        width: 35vw;
+    }
+    .descriptionsecond h5 {
+        font-family: "raptor";
+        font-size: 3.5vw;
+        margin-block-end: 0;
+        margin-block-start: 0;
+        width: 47vw;
+        padding-bottom: 20px;
+        padding-left: 2vw;
+    }
+    .backround_about_us {
+        padding: 40px;
+        background-image: url(../img/mbm.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 380vw;
+    }
+    .title_about_us {
+        margin-top: -20px;
+        height: 0;
+        font-family: "radis";
+        font-size: 4.3vw;
+        width: 90vw;
+    }
+    .picture img{
+        object-fit: cover;
+        width: 90vw;
+        height: 70vw;
+        border-radius: 3vw;
+    }
+    .descriptionone h5 {
+        /* height: 30px; */
+        width: 100%;
+        padding-top: 14px;
+        padding-left: 0vw;
+        font-family: "raptor";
+        font-size: 3.3vw;
+        margin-block-end: 0;
+        margin-block-start: 0;
+    }
+    .boom{
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 768px){
+    .backround_about_us{
+        padding: 6vw;
+    }
+    .answer.question {
+        visibility: visible;
+        opacity: 1;
+        font-size: 3.2vw;
+        padding-bottom: 16px;
+    }
+    .question_but q {
+        font-family: "raptor";
+        font-size: 4vw;
+    }
+    .background_header{
+        background-image: url('../img/mobile_background_main.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 130vh;
+    }
+    .whitebackground {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        background-color: white;
+        border-radius: 14px;
+        height: 100%;
+    }
+    .logo_app{
+        width: 8vw;
+        padding-right: 10px;
+    }
+    .text_block_app{
+        color: black;
+    }
+    .download_app_content a{
+        color: white;
+        background-color: #0073FA;
+        text-decoration: none;
+        padding: 2vw;
+        padding-left:20px;
+        padding-right: 20px;
+        border-radius: 30px;
+        font-weight: 500;
+        font-size: 4vw;
+    }
+    .position_button_phoone {
+        visibility: visible;
+        z-index: 999999;
+        color: black;
+        position: fixed;
+        bottom: 20px; /* Отступ от нижнего края экрана */
+        left: 50%; /* Размещение по центру по горизонтали */
+        transform: translateX(-50%); /* Сдвиг на половину ширины элемента для точного центрирования */
+    }
+    
+    .phone_button {
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
+        z-index: 999999;
+        font-size: 15px;
+        background-color: white;
+        padding: 10px 30px;
+        width: 62vw;
+        border: none;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 30px;
+        transition: all 0.5s ease;
+    }
+    .adwawd:active{
+        opacity: 0.5;
+    }
+    .courses_block_title_second {
+        position: relative;
+        height: 100vw;
+        border-radius: 2vw;
+        overflow: hidden;
+        transition: all 0.5s ease;
+        color: white;
+    }
+    .desc_app{
+        opacity: 0.6;
+        font-size: 2.5vw;
+    }
+    .desc_information h4 {
+        margin-block-start: 0.7vw;
+        font-size: 6vw;
+        margin-block-end: 0.7vw;
+    }
+    .desc_information {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 17vw;
+    }
+    .container_aside {
+        padding: 3vw;
+        height: 274px;
+    }
+    .secondinetext {
+        width: 58vw;
+    }
+
+    .aside_block {
+        bottom: 0;
+        background-color: white;
+        width: 100%;
+        border-radius: 5vw;
+        height: 224px;
+        border: 0px solid #0073FA;
+        box-sizing: border-box;
+        transition: all 0.5s ease;
+    }
+    .aside_text {
+        font-size: 6vw;
+        font-weight: 500;
+        letter-spacing: -0.34vw;
+        padding-bottom: 13px;
+    }
+    .download_app_content{
+        background-color: white;
+        padding: 2vw 2vw 2vw 0vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .content_container_form {
+        padding-top: 0vw;
+        /* padding-bottom: 27vw; */
+        padding-right: 10vw;
+        padding-left: 10vw;
+    }
+    .grapdicele img {
+        position: absolute;
+        top: 10%;
+        width: 70vw;
+        left: 64%;
+        z-index: 1;
+    }
+    .main_vegancy {
+        margin-top: -90vw;
+    }
+    .title_ofsend_form {
+        font-family: 'giest_semibold';
+        font-size: 7.5vw;
+        width: 74vw;
+        font-weight: 100;
+        line-height: 6vw;
+        padding-bottom: 7vw;
+        padding-top: 13vw;
+        letter-spacing: -0.1vw;
+    }
+    .container_header_mainmm {
+        margin-top: 0px;
+        padding-top: 73vw;
+        z-index: 0;
+    }
+    .barbershop_adress {
+        font-family: "radis";
+        font-size: 6vw;
+        text-align: center; /* Центрирует текст внутри элемента */
+        display: flex; /* Используйте flex, чтобы элемент сам центрировался */
+        align-items: center;
+        justify-content: center;
+        width: 100%; /* Убедитесь, что ширина соответствует родителю */
+    }
+    .descl_of_page {
+        font-family: "small";
+        width: 90vw;
+        font-size: 3.5vw;
+        padding-bottom: 60px;
+    }
+    .begin_barber {
+        padding-top: 12vw;
+    }
+    .wefjiwf p{
+        width: 82vw;
+    }
+    .barber_order_link{
+        position: absolute;
+    }
+    .barber_order{
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
+        width: 91%;
+        bottom: 4%;
+        position: fixed;
+    }
+    .modal-content {
+        background-color: #000000;
+        overflow-y: auto;
+        overflow-x: hidden;
+        margin: 0% auto !important;
+        width: 92.3% !important;
+        height: 97%;
+        border-radius: 0px !important;
+        position: relative;
+    }
+    .bunners_disc img {
+        width: 82vw;
+    }
+    .cards_gofts img {
+        z-index: 1;
+        margin-left: -70vw;
+        margin-top: -78vw;
+        width: 190vw;
+    }
+    .barbershop_adress_park {
+        font-family: "coold";
+        font-size: 5vw;
+        padding-bottom: 30px;
+    }
+    .titile_of_page {
+        padding-bottom: 20px;
+        font-family: "radis";
+        font-weight: 700;
+        font-size: 13vw;
+        letter-spacing: -1px;
+    }
+    main{
+        margin-top: 300px;
+    }
+    .main_franshiza {
+        margin-top: -3vw;
+    }
+    .slide img {
+        z-index: 0;
+        width: 100%;
+        height: 107vw;
+        object-fit: cover;
+        border-radius: 1.5vw;
+    }
+    .background_header_vegansy{
+        background-image: url('../img/mobile_background.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 113vh;
+        font-family: 'giest_semibold';
+    }
+    #footer{
+        padding-bottom: 70px;
+    }
+    .title_of_block_bar h1 {
+        font-size: 10vw;
+        color: white;
+        font-family: "radis";
+    }
+    .text_attantion {
+        font-size: 2vw;
+        font-family: 'raptormedo';
+        opacity: 0.8;
+        width: 66vw;
+        padding-bottom: 40px;
+    }
+    .desck_form_send {
+        opacity: 0.5;
+        font-size: 2.5vw;
+        letter-spacing: -0.05vw;
+        font-family: 'giest_semibold';
+        padding-bottom: 1vw;
+    }
+    .blackdd_background button{
+        display: block;
+        padding: 13px 13px 0px 0px;
+        border: none;
+        opacity: 1;
+        background-color: transparent;
+    }
+    .blackdd_background button:active{
+        opacity: 0.3;
+    }
+    .blackdd_background {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+    .styled-input::placeholder {
+        color: #ffffff; /* Цвет текста плейсхолдера */
+        font-size: 3vw; /* Размер текста плейсхолдера */
+        font-family: "small";
+    }
+    input[type="text"] {
+        color: white;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 2vw;
+        border: 3px solid #393939;
+        border-radius: 2vw;
+        height: 12vw;
+        box-sizing: border-box;
+        font-size: 16px;
+        background-color: #222222;
+        transition: border 0.5s ease;
+    }
+    .get_order_ {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        color: black;
+        padding: 3vw;
+    }
+    form {
+        position: relative;
+        overflow: hidden;
+        background-color: #ffffff;
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        border-radius: 5vw;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    .left_app{
+        display: flex;
+        align-items: center;
+        justify-self: center;
+    }
+    .banner_download_app{
+        display: block;
+    }
+    .banner_download_app.closed{
+        display: none;
+    }
+    .container_main {
+        padding: 3vw;
+    }
+    .content_padding.open {
+        height: 600px;
+    }
+    .navigation_links ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 11px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        margin-top: 47px;
+    }
+    .navigation_links ul li a {
+        font-family: "small";
+        text-decoration: none; /* Убираем подчеркивание */
+        font-weight: 200;
+        color: black; /* Цвет текста */
+        font-size: 24px; /* Размер шрифта */
+        text-transform: lowercase; /* Все буквы маленькие */
+    }
+    .courses_block_title_firts {
+        position: relative;
+        height: 100vw;
+        border-radius: 2vw;
+        overflow: hidden;
+        transition: all 0.5s ease;
+        color: white;
+    }.desctiprion_of_card_curse {
+        opacity: 1;
+        width: 61vw;
+        font-size: 3vw;
+        transition: opacity 0.5s ease;
+        position: relative;
+        z-index: 2;
+    }
+    .sale{
+        visibility: hidden;
+        opacity: 0; 
+        margin-top: 20px;
+        transition: visibility 0s 0.1s, opacity 0.1s linear; 
+        color: #0073FA;
+        font-family: "small";
+        font-size: 23px;
+    }
+
+    #services-content {
+        padding-right: 0px;
+    }
+    .gift_container_blcok{
+        padding-top: 10px;
+    }
+    .active_button{
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 0s 0.1s, opacity 0.1s linear; 
+    }
+    .picture {
+        width: 100%;
+    }
+    .background_of_items_gifts {
+        height: 201vw;
+        width: 97%;
+        border-radius: 8vw;
+    }
+    .background_of_items_gifts {
+        align-items: center;
+        flex-direction: column;
+    }
+    .bunners_disc {
+        padding: 20px 20px;
+        display: flex
+    ;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+    }
+    .active_button.visibility{
+        visibility: hidden;
+        opacity: 0; 
+        transition: opacity 1s linear; 
+    }
+}
+@media screen and (max-width: 679px){
+
+    .service-row {
+        display: grid;
+        grid-template-columns: 37vw 14vw 14vw 0vw;
+        /* align-items: center; */
+    }
+    .opapapapapa_masters {
+        display: grid;
+        grid-template-columns: 11vw 12vw 13vw 0vw;
+        align-items: center;
+    }
+    .opapapapapa {
+        display: grid;
+        grid-template-columns: 11vw 12vw 13vw 0vw;
+    }
+    .service-rowww {
+        display: grid;
+        grid-template-columns: 41vw 13vw 14vw 0vw;
+        align-items: center;
+        align-items: end;
+    }
+}
+@media screen and (max-width: 484px){
+    .service-row {
+        display: grid;
+        grid-template-columns: 32vw 12vw 12vw 0vw;
+        /* align-items: center; */
+    }
+    .position_button_phoone {
+        visibility: visible;
+        z-index: 999999;
+        color: black;
+        position: fixed;
+        bottom: 20px; /* Отступ от нижнего края экрана */
+        left: 50%; /* Размещение по центру по горизонтали */
+        transform: translateX(-50%); /* Сдвиг на половину ширины элемента для точного центрирования */
+    }
+    .hairdresserr {
+        font-family: 'coold';
+        text-align: center;
+        font-size: 2.5vw;
+        width: 9vw;
+        padding-bottom: 3.5vw;
+    }
+    .ser_but button {
+        background-color: #000000;
+        color: white;
+        font-family: "coold";
+        font-size: 3vw;
+        padding: 1vw 2vw 1vw 2vw;
+        border-radius: 30px;
+        border: 2px solid transparent;
+        box-shadow: 0;
+        transition: color 300ms ease, background-color 300ms ease;
+    }
+    .blackdd_background h4 {
+        color: white;
+        width: 67vw;
+        margin-block-end: 0em;
+        font-size: 2vw;
+        margin-block-start: 0em;
+        padding: 20px;
+        font-family: "raptor";
+    }
+    .graphic-element {
+        position: absolute;
+        margin-left: -20px;
+        /* margin-top: 250px; */
+        width: 32vw;
+        bottom: 0;
+    }
+    .blackdd_background h4 {
+        color: white;
+        width: 67vw;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        font-size: 2vw;
+        padding: 20px;
+        font-family: "raptor";
+    }
+    .logo_kremen svg {
+        width: 88vw;
+    }
+    .up_line {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .left_block_s nav {
+        width: 70vw;
+    }
+    .vegancy_block_text_title {
+        font-family: 'guestvariabble';
+        font-size: 3vw;
+        width: 41vw;
+        font-weight: 800;
+    }
+    .img_grapggggg {
+        position: absolute;
+        margin-left: -356px;
+        margin-top: -30px;
+    }
+    .vegancy_block_container {
+        position: relative;
+        overflow: hidden;
+        background-color: #ffffff;
+        width: 100%;
+        object-fit: cover;
+        height: 740px;
+        border-radius: 5vw;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+    .vegancy_block_container img {
+        position: absolute;
+        top: -6%;
+        left: 50%;
+        padding-bottom: 20px;
+        z-index: 1;
+    }
+    .vegancy_block_text {
+        font-family: "radis";
+        font-size: 4vw;
+        width: 50vw;
+    }
+    .left_block_s nav ul {
+        display: flex;
+        font-size: 3vw;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .position_button_phoone {
+        visibility: visible;
+        z-index: 999999;
+        color: black;
+        position: fixed;
+        bottom: 20px; /* Отступ от нижнего края экрана */
+        left: 50%; /* Размещение по центру по горизонтали */
+        transform: translateX(-50%); /* Сдвиг на половину ширины элемента для точного центрирования */
+    }
+    .aside_text {
+        font-size: 6vw;
+        font-weight: 500;
+        letter-spacing: -1px;
+        padding-bottom: 13px;
+    }
+    .hover_serv {
+        padding: 19px;
+        align-self: center;
+        width: 0;
+        height: 0;
+    }
+    
+    .sign_ing_haircut {
+        padding: 0;
+        font-family: "button";
+        background-color: white;
+        height: 16vw;
+        color: black;
+        width: 90vw;
+        font-size: 4vw;
+        border: none;
+        border-radius: 2.5vw;
+    }
+    .service-rowww {
+        display: grid;
+        grid-template-columns: 40vw 13vw 13vw 0vw;
+        align-items: center;
+    }
+    .opapapapapa_question {
+        display: grid;
+        padding-left: 2.3vw;
+        grid-template-columns: 13vw 13vw 5vw 0vw;
+        align-items: center;
+    }
+    .service-row {
+        display: grid;
+        grid-template-columns: 33vw 14vw 14vw 0vw;
+        /* align-items: center; */
+    }
+    .service-rowser {
+        display: grid;
+        grid-template-columns: 2vw 7vw 6vw 7.5vw;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .infoprmatiuon_blick h4 {
+        font-size: 4vw; /* Размер шрифта по умолчанию 0 */
+        transition: font-size 0.5s ease; /* Плавный переход для размера шрифта */
+    }
+    
+    .infoprmatiuon_blick.visible {
+        z-index: 4;
+        visibility: visible; /* Делаем видимым */
+        opacity: 1; /* Полная непрозрачность */
+    }
+    .aside_block img {
+        position: absolute;
+        width: 19vw;
+        margin-top: -32px;
+        margin-left: -32px;
+    }
+    .container_academia {
+        padding: 3vw;
+        padding-bottom: 14vw;
+    }
+    
+}

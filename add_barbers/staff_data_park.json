@@ -1,0 +1,32 @@
+[
+    {
+        "id": 2,
+        "name": "\u041d\u0438\u043a\u0438\u0442\u0430",
+        "position": "\u041c\u0430\u0441\u0442\u0435\u0440",
+        "photo_url": "https:\/\/assets.yclients.com\/masters\/origin\/0\/04\/04596941146be13_20240714143540.png"
+    },
+    {
+        "id": 3,
+        "name": "\u0410\u043d\u0442\u043e\u043d \u041f\u0430\u043b\u0447",
+        "position": "\u042d\u043a\u0441\u043f\u0435\u0440\u0442",
+        "photo_url": "https:\/\/assets.yclients.com\/masters\/origin\/2\/2b\/2b2bdfdd0677f4c_20210421155605.png"
+    },
+    {
+        "id": 4,
+        "name": "\u0414\u044f\u0434\u044f \u0410\u043d\u0434\u0440\u0435\u0439",
+        "position": "\u042d\u043a\u0441\u043f\u0435\u0440\u0442",
+        "photo_url": "https:\/\/assets.yclients.com\/masters\/origin\/1\/1e\/1e589c3aaae6ca9_20210421155400.png"
+    },
+    {
+        "id": 5,
+        "name": "\u0421\u0435\u0440\u0433\u0435\u0439",
+        "position": "\u042d\u043a\u0441\u043f\u0435\u0440\u0442",
+        "photo_url": "https:\/\/assets.yclients.com\/masters\/origin\/c\/c7\/c7ecf15d44abca3_20220728192157.png"
+    },
+    {
+        "id": 6,
+        "name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u0421\u043e\u0440\u043e\u043a\u0438\u043d",
+        "position": "\u0422\u043e\u043f-\u042d\u043a\u0441\u043f\u0435\u0440\u0442",
+        "photo_url": "https:\/\/assets.yclients.com\/masters\/origin\/f\/fa\/facd70bcf4eb851_20210421155531.png"
+    }
+]

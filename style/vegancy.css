@@ -1,0 +1,846 @@
+
+.background_header_vegansy{
+    background-image: url('../img/background_vegancy.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 130vh;
+    font-family: 'giest_semibold';
+}
+form {
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 59vw;
+    object-fit: cover;
+    height: 36vw;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.vegancy_block{
+    color: black;
+}
+.position_title_text_spisok{
+    padding-top: 195px;
+    display: flex;
+    font-family: "g9";
+    align-items: center;
+    flex-direction: column;
+}
+.vegancy_block_title{
+    padding-bottom: 20px;
+}
+.customer{
+    position: absolute;
+    top: 100%;
+    z-index: 1;  
+}
+.vegancy_block_container img{
+    position: absolute;
+    top: 0;
+    left: 70%;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+.text_container_information-vegansy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_vegancy{
+    margin-top: -500px;
+}
+.vegancy_block_text {
+    font-family: "radis";
+    font-size: 47px;
+    width: 100%;
+}
+.img_grapggggg {
+    position: absolute;
+    margin-left: -346px;
+    margin-top: 63px;
+}
+.vegancy_block_container{
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 889px;
+    object-fit: cover;
+    height: 700px;
+    border-radius: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.content_container_form{
+    /* padding-top: 5vw; */
+    /* padding-bottom: 27vw; */
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+.conent_form_send{
+    z-index: 2;
+}
+.styled-input::placeholder {
+    color: #ffffff; /* Цвет текста плейсхолдера */
+    font-size: 1vw; /* Размер текста плейсхолдера */
+    font-family: "small";
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.desck_form_send{
+    opacity: 0.5;
+    font-size: 1vw;
+    letter-spacing: -0.05vw;
+    font-family: 'giest_semibold';
+    padding-bottom: 10px;
+}
+.title_ofsend_form {
+    font-family: 'giest_semibold';
+    font-size: 2.5vw;
+    width: 28vw;
+    line-height: 0.8;
+    padding-bottom: 2vw;
+    padding-top: 5vw;
+    letter-spacing: -0.1vw;
+}
+.second_line_static_in img{
+    position: absolute;
+    width: 20vw;
+}
+.text_attantion {
+    font-size: 0.8vw;
+    font-family: 'raptormedo';
+    opacity: 0.8;
+    width: 26vw;
+    padding-bottom: 3vw;
+}
+.text_attantion a{
+    color: black;
+}
+input[type="text"]:hover {
+    border: 3px solid rgb(0, 81, 255);
+}
+input[type="text"]:focus-within {
+    background: #464646;
+    border-color: gray;
+}
+input[type="text"] {
+    color: white;
+    width: 30vw;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 3px solid #393939;
+    border-radius: 1vw;
+    height: 4vw;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #222222;
+    transition: border 0.5s ease;
+}
+.grapdicele{
+    margin-left: 20px;
+}
+.grapdicele img{
+    position: absolute;
+    top: 20%;
+    width: 19vw;
+    left: 70%;
+    z-index: 1; /* отправляем изображение на задний план */
+}
+.send_telegram {
+    width: 135.15px;
+    padding: 10px;
+    background-color: #0073FA;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.send_telegram:hover {
+    background-color: #005dc7;
+}
+
+.send_telegram:active {
+    background-color: #00326c;
+}
+.get_order_{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: black;
+}
+
+.main_position_academia{
+    margin-top: -19vw;
+}
+
+.container_header_mainmm{
+    margin-top: 0PX;
+    padding-top: 19vw;
+    z-index: 0;
+}
+.titile_of_page{
+    font-family: "radis";
+    font-weight: 700;
+    font-size: 80px;
+    letter-spacing: -1px;
+}
+.vegancy_block{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vegancy_block_text_title{
+    font-family: 'guestvariabble';
+    font-size: 13px;
+    font-weight: 800;
+}
+.left_block_s nav{
+    width: 100%;
+}
+
+.text_block_ehat{
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+.left_block_s nav ul {
+    display: flex;
+    font-size: 12px;
+    flex-direction: column;
+    padding-inline-start: 0px;
+}
+.left_block_s nav ul li{
+    display: flex;
+}
+.left_block_s {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.descl_of_page {
+    font-family: "small";
+    width: 44vw;
+    padding-bottom: 60px;
+}
+.active_button_of_page a{
+    text-decoration: none;
+    color: black;
+    font-family: "button";
+    font-size: 15px;
+}
+.active_button_of_page{
+    background-color: white;
+    width: 214px;
+    height: 53.92px;
+    border-radius: 21px;
+    display: flex;
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 11.8px 29.91px rgba(0, 0, 0, 0.30);
+    transition: opacity 0.3s ease;
+}
+.active_button_of_page:hover{
+    opacity: 0.8;
+}
+.active_button_of_page:active{
+    opacity: 0.5;
+}
+
+.container_statistic_information{
+    padding: 75px;
+    position: relative;
+    display: flex;
+    z-index: 5;
+    height: 49.6vw;
+}
+.white_block_inf_static{
+    color: black;
+    background-color: white;
+    border-radius: 1.5vw;
+}
+.title_of_staticing{
+    padding: 20px 0px 0px 20px;
+}
+.desc_static_ing{
+    padding: 0vw 1.5vw 1.5vw 1.5vw;
+}
+.second_line_static_in{
+    background-color: white;
+    color: black;
+    height: 100%;
+    border-radius: 1.5vw;
+    z-index: 1;
+    object-fit: cover;
+}
+/* .block_inf_static_descc{
+    padding-top: 30.5vw;
+} */
+.white_block_inf_static h3{
+    font-family: "small";
+    font-weight: 500;
+    font-size: 2.2vw;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-bottom: 3vw;
+}
+.mmore_more h3,
+.title_ewufnd h3,
+.block_title_static h3{
+    font-family: "small";
+    font-weight: 700;
+    font-size: 4vw;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.title_ewufnd h5,
+.block_title_static h5,
+.mmore_more h5{
+    font-size: 1vw;
+    margin-block-start: 0.3vw;
+    margin-block-end: 1.67em;
+}
+.second_line_block_white,
+.first_line_block_white{
+    background-color: white;
+    color: black;
+    border-radius: 1.5vw;
+}
+.second_line_static_in img{
+    width: 29.6vw;
+}
+.first_line_block_white{
+    height: 22.5vw;
+    width: 22.7vw;
+}
+.websitebutton_static {
+    padding: 1vw;
+}
+.container_for_model_img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1vw;
+}
+.container_for_model_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1.5vw;
+}
+.block_inf_static_desc h4{
+    width: 19.5vw;
+}
+.title_ewufnd{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 61%; 
+}
+.web_dwodijwed{
+    padding-bottom: 0.8vw;
+}
+.container_line_static{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+}
+
+.container_line_static_xuyaticx{
+    display: flex;
+    position: relative;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95%; /* Обеспечивает равномерное распределение по всей высоте контейнера */
+}
+.content_padding_static{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Обеспечивает равномерное распределение по всей высоте контейнера */
+    gap: 1vw;
+}
+.white_block_inf_static h5{
+    width: 28vw;
+}
+.block_inf_static_descc h4{
+    width: 27vw;
+}
+.white_block_inf_static h5,
+.title_ewufnd h5,
+.block_inf_static_desc h4,
+.block_inf_static_descc h4{
+    font-weight: 500;
+    font-family: "small";
+    font-size: 0.9vw;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-bottom: 1.2vw;
+}
+.title_ewufn{
+    display: flex;
+    justify-content: space-between;
+}
+.padding_static_block_whats{
+    padding-bottom: 1vw;
+}
+.websitebutton_static{
+    padding-top: 9.9vw;
+}
+.second_line_block_white{
+    padding: 1vw;
+    height: 100%;
+}
+.title_ewufn{
+    padding: 1.3vw;
+}
+.title_ewufn h4{
+    font-size: 1vw;
+}
+.container_line_static_xuyaticx{
+    padding: 1.3vw;
+    z-index: 190;
+}
+.block_inf_static_descP{
+    bottom: 0;
+}
+.first_line_static_in{
+    height: 100%;
+}
+.container_statistic_information a{
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+    padding: 0.7vw;
+    font-size: 0.8vw;
+    border-radius: 15px;
+    border: 0.1vw solid black;
+    transition: all 0.5s ease;
+}
+.container_statistic_information a:hover{
+    opacity: 1;
+}
+.opaaaaaaa{
+    padding: 0px 1vw 0px 1vw;
+}
+.courses_block{
+    padding: 0px 75px 75px 75px;
+}
+
+.container_infprmation_coursr{
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+}
+.price_and_desc_iinformation {
+    position: relative;
+    z-index: 2;
+    padding: 2vw 2vw 0vw 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85%;
+    align-items: flex-start;
+}
+.desctiprion_of_card_curse{
+    display: flex;
+    width: 40vw;
+    flex-direction: column;
+}
+.desctiprion_of_card_curse ul{
+    padding-inline-start: 0px;
+}
+.title_namme_of_card_curs h2 {
+    font-family: "gg";
+    font-size: 4vw;
+    width: 29vw;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    line-height: 4vw;
+    letter-spacing: 0vw;
+}
+.title_namme_of_card_cursss p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color: #0073FA;
+}
+.title_namme_of_card_cursss h2 {
+    font-family: "gg";
+    font-size: 4vw;
+    width: 29vw;
+    color: black;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    line-height: 4vw;
+    letter-spacing: 0vw;
+}
+.main_price_inforation_card h5{
+    font-family: "small";
+    font-size: 3vw;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: 400;
+}
+
+.desccourse{
+    font-family: "small";
+    font-size: 1vw;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-weight: 400;
+}
+.title_namme_of_card_curs p{
+    margin-block-start: 0em;
+    color: #0073FA;
+    margin-block-end: 0em;
+}
+.desctiprion_of_card_curse nav ul {
+    list-style: none;
+    margin-block-start: 0em;
+    padding-inline-start: 0px;
+    margin-block-end:0em;
+}
+.desctiprion_of_card_curse h4{
+    margin-block-start: 0em;
+}
+
+.teacher_item img{
+    width: 25vw;
+    height: 32vw;
+    object-fit: cover;
+    border-radius: 2vw;
+    border: 0.3vw solid #0073FA;
+}
+.teachers_title{
+    padding-left: 75px;
+    font-family: 'guntez';
+    font-size: 6.3vw;
+}
+.container_line_static_whar_we{
+    padding: 0px 75px 75px 75px;
+}
+
+.setka_of_what_we{
+    white-space: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
+.text_block_what_we{
+    padding-right: 6vw;
+}
+.background_of_block_we img{
+    width: 6vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.background_of_block_we{
+    background-color: white;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 11vw;
+    border-radius: 2vw;
+}
+.text_block_what_we h4{
+    font-size: 1.1vw;
+    margin-block-start: 0.5vw;
+    margin-block-end: 0vw;
+}
+.container_line_static_dop_what_we{
+    padding: 0px 75px 75px 75px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5vw;
+
+}
+.what_we_block{
+    position: relative;
+    z-index: 50;
+}
+.title_of_what_we_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text_block_hwat_we_title{
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.text_block_hwat_we_title h2{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-family: "gg";
+    line-height: 3vw;
+    font-size: 4vw;
+}
+.container_podrobnee{
+    position: relative;
+    padding: 0px 75px 75px 75px;
+    z-index: 5;
+}
+.content_podrobnee{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 2vw;
+}
+.right_podrobnee,
+.left_podrobnee{
+    width: 44vw;
+    flex: 1;
+}
+.right_podrobnee h4{
+    font-size: 1.2vw;
+    margin-block-start: 1em;
+    margin-block-end: 0.5em;
+}
+.right_podrobnee h2{
+    font-family: "small";
+    font-weight: 500;
+    font-size: 3vw;
+    margin-block-start: 1em;
+    margin-block-end: 0em;
+    line-height: 2.8vw;
+}
+.left_podrobnee h2{
+    font-family: "gg";
+    bottom: 0;
+    font-size: 4.5vw;
+    line-height: 4.5vw;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.left_podrobnee{
+    position: relative;
+}
+.grapfic_elementsss img {
+    position: absolute;
+    z-index: 1;
+    width: 50vw;
+    margin-top: -94vw;
+}
+.text_block_hwat_we_title h3{
+    margin-block-start: 0.1em;
+    margin-block-end: 0em;
+    font-family: "gg";
+    font-size: 3vw;
+}
+.text_block_hwat_we_title h4{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-family: "small";
+    font-weight: 400;
+}
+.dop_information_opapapa{
+    height: 19vw;
+}
+.container_line_static_dop_what_we h2{
+    width: 44vw;
+    line-height: 3.4vw;
+    height: 11vw;
+    font-family: "small";
+    font-size: 3.75vw;
+    font-weight: 500;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.bole_wht_to_do h4 a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: text-decoration 1s ease;
+}
+.bole_wht_to_do h4 a:hover{
+    text-decoration: underline;
+}
+.bole_wht_to_do h4{
+    margin-block-start: 0em;
+    margin-block-end: 1em;
+    font-size: 1.2vw;
+    font-family: "small";
+    font-weight: 300;
+}
+.bole_wht_to_do{
+    width: 44vw;
+    height: 11vw;
+
+}
+.background_of_block_we h2{
+    margin-block-start: 0vw;
+    margin-block-end: 0vw;
+    font-family: "small";
+    font-size: 2vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.desc_information h4{
+    margin-block-start: 0.7vw;
+    margin-block-end: 0.7vw;
+    font-family: "small";
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+.desc_information h5{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.desc_information {
+    display: flex;
+    width: 25vw;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.desc_information h4 h5{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.container_teachers{
+    padding: 0px 75px 0px 75px;
+}
+.teachers_block{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+.courses_block_title_second {
+    position: relative;
+    height: 62vh;
+    border-radius: 2vw;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    color: white;
+}
+
+.courses_block_title_second::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/cvalification.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1; /* По умолчанию фон полностью виден */
+    border-radius: 2vw;
+    transition: opacity 0.5s ease; /* Плавный переход для opacity */
+    z-index: 1;
+}
+
+.courses_block_title_second:hover::before {
+    opacity: 0.5; /* Изменение прозрачности фона при наведении */
+}
+
+/* Скрыть текст по умолчанию */
+.desctiprion_of_card_curse {
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Плавный переход для opacity */
+    position: relative;
+    z-index: 2;
+}
+
+/* Показать текст при наведении на контейнер */
+.courses_block_title_second:hover .desctiprion_of_card_curse {
+    opacity: 1; /* Показать текст при наведении */
+}
+
+/* Полупрозрачность для .main_price_inforation_card и .title_namme_of_card_curs h2 при наведении */
+.courses_block_title_second:hover .main_price_inforation_card,
+.courses_block_title_second:hover .title_namme_of_card_curs h2 {
+    opacity: 0.1; /* Прозрачность текста */
+    transition: opacity 0.5s ease;
+}
+
+/* Аналогично для первого блока */
+.courses_block_title_firts {
+    position: relative;
+    height: 62vh;
+    border-radius: 2vw;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    color: white;
+}
+
+.courses_block_title_firts::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/zerobarb.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 1; /* По умолчанию фон полностью виден */
+    border-radius: 2vw;
+    transition: opacity 0.5s ease; /* Плавный переход для opacity */
+    z-index: 1;
+}
+
+.courses_block_title_firts:hover::before {
+    opacity: 0.5; /* Изменение прозрачности фона при наведении */
+}
+
+/* Показать текст при наведении на контейнер */
+.courses_block_title_firts:hover .desctiprion_of_card_curse {
+    opacity: 1; /* Показать текст при наведении */
+}
+
+/* Полупрозрачность для текста */
+.courses_block_title_firts:hover .main_price_inforation_card,
+.courses_block_title_firts:hover .title_namme_of_card_curs h2 {
+    opacity: 0.1; /* Прозрачность текста */
+    transition: opacity 0.5s ease;
+}
+
+/* Анимация появления */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Анимация исчезновения */
+@keyframes fadeOut {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+/* Увеличение времени анимации исчезновения для более плавного эффекта */
+.courses_block_title_second, .courses_block_title_firts {
+    transition: opacity 0.5s ease-in-out; /* Плавное исчезновение */
+}
+
+.courses_block_title_second:hover,
+.courses_block_title_firts:hover {
+    transition: opacity 0.5s ease-in-out; /* Плавное появление */
+}

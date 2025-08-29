@@ -1,0 +1,8 @@
+# Разрешение для всех поисковых роботов индексировать все страницы сайта
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+
+# Ссылка на sitemap для удобства поисковиков
+Sitemap: https://kremen-barbershop.ru/sitemap.xml

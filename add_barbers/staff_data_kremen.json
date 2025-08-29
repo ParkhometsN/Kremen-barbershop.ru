@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "\u0412\u0435\u0440\u0430 \u041f\u0435\u0442\u0440\u043e\u0432\u043d\u0430",
+        "position": "\u041c\u0430\u0441\u0442\u0435\u0440",
+        "photo_url": "https:\/\/assets.yclients.com\/masters\/origin\/2\/2b\/2b21977fd255efb_20241027113705.png"
+    },
+    {
+        "id": 2,
+        "name": "\u041c\u0430\u0440\u0438\u044f",
+        "position": "\u0421\u0442\u0430\u0440\u0448\u0438\u0439 \u041c\u0430\u0441\u0442\u0435\u0440",
+        "photo_url": "https:\/\/assets.yclients.com\/masters\/origin\/3\/31\/31ccc94b29dbd3c_20230911200108.png"
+    },
+    {
+        "id": 3,
+        "name": "\u0410\u0440\u0442\u0451\u043c",
+        "position": "\u041c\u0430\u0441\u0442\u0435\u0440",
+        "photo_url": "https:\/\/assets.yclients.com\/masters\/origin\/4\/40\/408d8cfada31b81_20230904200339.png"
+    },
+    {
+        "id": 4,
+        "name": "\u0410\u043d\u0442\u043e\u043d \u041f\u0430\u043b\u0447",
+        "position": "\u042d\u043a\u0441\u043f\u0435\u0440\u0442",
+        "photo_url": "https:\/\/assets.yclients.com\/masters\/origin\/2\/2b\/2b2bdfdd0677f4c_20210421155605.png"
+    },
+    {
+        "id": 5,
+        "name": "\u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u0421\u043e\u0440\u043e\u043a\u0438\u043d",
+        "position": "\u0422\u043e\u043f-\u042d\u043a\u0441\u043f\u0435\u0440\u0442",
+        "photo_url": "https:\/\/assets.yclients.com\/masters\/origin\/f\/fa\/facd70bcf4eb851_20210421155531.png"
+    }
+]

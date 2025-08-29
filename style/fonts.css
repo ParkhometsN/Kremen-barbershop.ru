@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "raptor bold";
+    src: url(../fonts/RaptorV3Premium-Bold.otf);
+}
+@font-face {
+    font-family:'raptormedo';
+    src: url(../fonts/RaptorV3Premium-Light.otf);
+}
+@font-face {
+    font-family: "raptor";
+    src: url(../fonts/RaptorV3Premium-Medium.otf);
+}
+@font-face {
+    font-family: "gg";
+    src: url(../fonts/Gunterz-Medium.otf);
+}
+@font-face {
+    font-family: "g9";
+    src: url(../fonts/Gothic60-Regular.otf);
+}
+@font-face {
+    font-family: "radis";
+    src: url(..//fonts/RAYDIS.otf);
+}
+@font-face {
+    font-family: "small";
+    src: url(../fonts/GeistVariableVF.ttf);
+}
+@font-face {
+    font-family: 'giest_semibold';
+    src: url(../fonts/Geist-SemiBold.otf);
+}
+@font-face {
+    font-family: "usual";
+    src: url(..//fonts/Geist-Medium.otf);
+}
+@font-face {
+    font-family: "button";
+    src: url(../fonts/gothampro_bold.ttf);
+}
+@font-face {
+    font-family: "col";
+    src: url(../fonts/coolvetica\ crammed\ rg.ttf);
+}
+@font-face {
+    font-family: "colo";
+    src: url(../fonts/coolvetica\compressed\rg.ttf);
+}
+@font-face {
+    font-family: "coold";
+    src: url(../fonts/coolvetic.ttf);
+}
+@font-face {
+    font-family: 'guestvariabble';
+    src: url(../fonts/GeistVariableVF.ttf);
+}
+@font-face {
+    font-family: "giest_bold";
+    src: url(../fonts/Geist-Bold.otf);
+}
+@font-face {
+    font-family: 'giest_regular';
+    src: url(../fonts/Geist-Regular.otf);
+}
+
+
+@font-face {
+    font-family: 'guntez';
+    src: url(../fonts/Gunterz-Medium.otf);
+}

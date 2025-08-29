@@ -1,0 +1,56 @@
+# Включаем модуль перезаписи
+RewriteEngine On
+
+# 1. Перенаправление с HTTP на HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2. Настройка кастомной страницы ошибки 404
+ErrorDocument 404 /404.html
+
+# 3. Запрещаем индексирование каталогов (защита от просмотра директорий)
+Options -Indexes
+
+# 4. Защита файла .htaccess от несанкционированного доступа
+<Files ".htaccess">
+    Require all denied
+</Files>
+
+# 5. Запрещаем доступ к скрытым файлам (например, .git, .env)
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+# 6. Защита от нежелательных ботов (можно дополнять список)
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^BlackWidow [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebCopier [NC]
+RewriteRule .* - [F,L]
+
+# 7. Оптимизация кеширования для ускорения загрузки сайта
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresDefault "access plus 1 month"
+    ExpiresByType text/html "access plus 7 days"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 6 months"
+    ExpiresByType image/png "access plus 6 months"
+    ExpiresByType image/gif "access plus 6 months"
+    ExpiresByType application/font-woff2 "access plus 1 year"
+</IfModule>
+
+# 8. Сжатие файлов (Gzip для CSS, JS, HTML)
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css
+    AddOutputFilterByType DEFLATE application/javascript application/json
+    AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# 9. Открываем доступ к важным файлам для поисковых систем (чтобы избежать блокировки CSS и JS)
+<IfModule mod_headers.c>
+    <FilesMatch "\.(js|css|png|jpg|jpeg|gif|ico|woff|woff2|ttf|svg|eot)$">
+        Header set Access-Control-Allow-Origin "*"
+    </FilesMatch>
+</IfModule>

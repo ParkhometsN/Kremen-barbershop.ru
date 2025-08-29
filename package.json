@@ -1,0 +1,10 @@
+{
+  "name": "kremen-barbershop",
+  "version": "1.0.0",
+  "main": "script/parsing.js",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^23.8.0"
+  }
+}

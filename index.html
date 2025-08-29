@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="img/small_logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="description" content="Kremen Barbershop — сеть современных барбершопов в Санкт-Петербурге. Мужские стрижки, фейды, оформление бороды, профессиональные britva и внимательные барберы. Атмосфера, стиль и качество без компромиссов.">
+    <meta name="keywords" content="барбершоп, kremen barbershop, мужская стрижка, оформление бороды, фейд, мужская парикмахерская, барбершоп СПб, britva, мужской салон, стрижка бороды, уход за усами, груминг, барбершоп санкт-петербург, лучшие барберы">
+    <meta name="author" content="Kremen Barbershop">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/fonts.css?v=2">
+    <link rel="stylesheet" href="style/preloader.css?v=2">
+    <link rel="stylesheet" href="style/style.css?v=2.2">
+    <link rel="stylesheet" href="style/adaptivesmob.css?v=2.2">    
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+    <script src="script/apiyandexmap.js" type="text/javascript"></script>
+    <title>Барбершоп KREMEN - качественные мужские стрижки</title>
+
+    <!-- <script>
+        window.location.href = "/maintenance.html";
+    </script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bowser@2.11.0/bundled.js"></script>
+    <script>
+        (function() {
+            var unsupportedPage = '/unsupported.html'; // Страница для старых браузеров
+    
+            // Получаем информацию о браузере
+            var browser = bowser.getParser(window.navigator.userAgent);
+            var browserInfo = browser.getBrowser();
+    
+            // Проверяем Safari и его версию
+            var unsupported = (
+                (browserInfo.name === 'Safari' && parseFloat(browserInfo.version) < 13) || // Старые версии Safari (до версии 13)
+                (browserInfo.name === 'Internet Explorer') || // Не поддерживаем IE
+                (browserInfo.name === 'Microsoft Edge' && parseFloat(browserInfo.version) < 79) || // Старые версии Edge
+                (browserInfo.name === 'Chrome' && parseFloat(browserInfo.version) < 49) || // Старые версии Chrome
+                (browserInfo.name === 'Firefox' && parseFloat(browserInfo.version) < 52) || // Старые версии Firefox
+                (browserInfo.name === 'Yandex' && parseFloat(browserInfo.version) < 17.6) // Старые версии Яндекс Браузера
+            );
+    
+            if (unsupported) {
+                window.location.href = unsupportedPage;
+            }
+        })();
+    </script>
+    
+    <noscript>
+        <meta http-equiv="refresh" content="0;url=/unsupported.html">
+    </noscript>    
+    </script>
+</head>
+<body>
+    <div class="loader"><img src="img/prealoder_logo.svg" alt="logo"></div>
+    <header>
+        <!-- <div id="banner_download_app" class="banner_download_app">
+            <div class="background_of_downlad_app">
+                <div class="download_app_content">
+                    <div class="left_app">
+                        <button id="closed_app" class="closed_app"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="size-4">
+                            <path d="M5.28 4.22a.75.75 0 0 0-1.06 1.06L6.94 8l-2.72 2.72a.75.75 0 1 0 1.06 1.06L8 9.06l2.72 2.72a.75.75 0 1 0 1.06-1.06L9.06 8l2.72-2.72a.75.75 0 0 0-1.06-1.06L8 6.94 5.28 4.22Z" />
+                        </svg>                          
+                        </button>
+                        <img src="img/logo_app.png" alt="logo_app" class="logo_app">
+                        <div class="text_block_app">
+                            <div class="title_app">Kremen</div>
+                            <div class="desc_app">Открыть в приложении kremen</div>
+                        </div>
+                    </div>
+                    <a href="http://e97794ll.beget.tech/index.html">Перейти</a>
+                </div>
+            </div>
+        </div> -->
+        <div class="background_header">
+            <div class="header_container">
+                <div id="navigation" class="content_padding">
+                    <div class="logo_burger">
+                        <span class="small_logo">
+                            <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_332_3615)">
+                                <rect width="45" height="45" rx="6.2234" fill="white"/>
+                                <path d="M31.2365 13.1997L25.0075 13.1997L19.2425 21.4981V13.1648H13.8828L13.8828 31.835H19.2425L19.2425 24.2172L24.5728 31.835L31.1815 31.835L24.3545 22.3953L31.2365 13.1997Z" fill="black"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_332_3615">
+                                <rect width="45" height="45" rx="5.98404" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>                        
+                        </span>
+                        <div class="content_for_nav">
+                            <nav class="navigation_links">
+                                <ul>
+                                    <li><a href="index.html">главная</a></li>
+                                    <li><a href="#manities">услуги</a></li>
+                                    <li><a href="franshiza.html">франшиза</a></li>
+                                    <li><a href="academia.html">академия</a></li>
+                                    <li><a href="vegansy.html">вакансии</a></li>
+                                    <li><a href="#about_us">о нас</a></li>
+                                    <li><a href="#footer">контакты</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <button id="open">
+                            <label for="check" class="menuButton">
+                                <input id="check" type="checkbox">
+                                <span class="top"></span>
+                                <span class="mid"></span>
+                                <span class="bot"></span>
+                            </label>
+                        </button>
+                    </div>
+                    <marquee class="sale">скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;скидка 20% на первое посещение&ensp;&ensp;&ensp;</marquee>
+                </div>
+            </div>
+        </div>
+        <center>
+            <!-- <div class="titile_barbeshop">
+                <img src="" alt="">
+            </div> -->
+            <div id="active_button" class="active_button">
+                <a href="https://n789227.yclients.com/select-city/1/select-branch?previousStepUrl=%2Fcompany%2F733381%2Fpersonal%2Fselect-services%3Fo%3D&o=">ВЫБРАТЬ ФИЛИАЛ</a>
+            </div>
+        </center>
+        <a class="adwawd" href="tel:+79312994464">
+            <div class="position_button_phoone">
+                <button class="phone_button">
+                    <span>
+                        <img src="img/phone.svg" alt="phone">
+                    </span>+7 (931) 299 44-64</button>
+            </div>
+        </a>
+    </header>
+    <main>
+        <div class="container_main">
+            <div id="manities" class="whitebackground">
+                <div class="up_line">
+                    <div class="title_andimg">
+                        <h1>услуги</h1>
+                    </div>
+                    <div class="infoprmatiuon_blick">
+                        <div class="blackdd_background">
+                            <button>
+                                <img src="img/closerd_button_hover.svg" alt="color-interpolation-filters">
+                            </button>
+                            <h4 id="info_text"></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="manitiies_items">
+                    <img class="graphic-element" src="img/blue_glist.png" alt="grapfic">
+                    <div class="manities_text">
+                        <div class="service-container">
+                            <div class="serves">
+                                <div class="service-rowser">
+                                    <div class="hover"></div>
+                                    <div class="hover"></div>
+                                    <div class="opapapapapa_question">
+                                        <div id="first_information_" class="hover_serv"><button>?</button></div>
+                                        <div id="second_information_" class="hover_serv"><button>?</button></div>
+                                        <div id="tree_information_" class="hover_serv"><button>?</button></div>
+                                    </div>
+                                </div>
+                                <div class="service-rowww">
+                                    <div class="ser_but">
+                                        <button id="btn-services">Услуги</button>
+                                        <button id="btn-additional-services">Доп/услуги</button>
+                                    </div>
+                                    <div class="opapapapapa_masters">
+                                        <div class="service-price hairdresserr">мастер</div>
+                                        <div class="service-price hairdresserr">старший</div>
+                                        <div class="service-price hairdresserr">эксперт</div>
+                                        <div class="service-price hairdresserr">ТОП-эксперт</div>
+                                    </div>
+                                </div>
+                                <div class="line_black"></div>
+                                <div id="services-content">
+                                    <div class="price_content-data" id="main-services"></div>
+                                </div>
+                                <div id="additional-services-content" style="display: none;">
+                                    <div class="renderff" id="addi"></div>
+                                    <div class="title_of_complex">
+                                        <div class="title_of_complex_name">комплексные услуги, выгода 10%</div>
+                                    </div>
+                                    <div class="line_black"></div>
+                                    <div id="service_packages" class="qwd"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gift_discount_block">
+                <div class="gift_container_blcok">
+                    <div class="background_of_items_gifts">
+                        <div class="left_gift">
+                            <div class="bunners_disc">
+                                <img src="new_img/uj.webp" alt="discount">
+                                <img src="new_img/ui.webp" alt="student">
+                            </div>
+                        </div>
+                        <div class="right_gift">
+                            <div class="giftsff">
+                                <div class="cards_gofts">
+                                    <img src="new_img/g.webp" alt="cards">
+                                </div>
+                                <div class="about-cardskkkk">
+                                    <h4>Если вам нужен сертификат, мы с радостью поможем вам получить его быстро и легко!</h4>
+                                    <a href="https://wa.me/79312994464?text=Здравствуйте!%20Мне%20нужен%20сертификат!" target="_blank">
+                                        <button>ПОДРОБНЕЕ</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="advatige">
+                <nav class="advatige_items">
+                    <ul>
+                        <li class="information">
+                            <img src="img/ad/subtract.png" alt="Мастера">
+                            <div class="text">
+                                <h3>Мастера</h3>
+                                <h5>Каждый из наших мастеров имеет более 5 лет опыта и ежегодно выполняет более 1000 стрижек</h5>
+                            </div>
+                        </li>
+                        <li class="information">
+                            <img src="img/ad/subtract2.png" alt="Инструменты">
+                            <div class="text">
+                                <h3>ИНСТРУМЕНТЫ</h3>
+                                <h5>В нашей работе мы используем не только профессиональный инструмент, но и тщательно дезинфицируем его перед каждым клиентом</h5>
+                            </div>
+                        </li>
+                        <li class="information">
+                            <img src="img/ad/subtract3.png" alt="Косметика">
+                            <div class="text">
+                                <h3>КОСМЕТИКА</h3>
+                                <h5>Используем только лучшую косметику известных мировых брендов</h5>
+                            </div>
+                        </li>
+                        <li class="information">
+                            <img src="img/ad/subtract4.png" alt="Комфорт">
+                            <div class="text">
+                                <h3>КОМФОРТ</h3>
+                                <h5>В наших заведениях есть комфортные зоны ожидания, где вы можете выпить чашечку свежесваренного кофе, чая или чего-нибудь покрепче</h5>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="pwekfoefkwpefkw">
+            <div class="grapficglistundex">
+                <img src="img/mainglistindex.svg" alt="blue_glist">
+            </div>
+        </div>
+        
+        <div id="about_us" class="backround_about_us">
+            <div class="container_about_us">
+                <div class="content_position_adddd">
+                    <div class="title_about_us">
+                        <h1>КРЕМЕНЬ БАРБЕРШОП - качественные мужские стрижки</h1>
+                    </div>
+                    <div class="img_and_desc">
+                            <div class="picture">
+                                <img src="img/team.jpg" alt="team">
+                            </div>
+                            <div class="descriptionone">
+                                <h5>Барбершоп Kremen – это не просто парикмахерская, а пространство для тех, кто ценит стиль, уверенность и высокий уровень сервиса. Здесь создают мужские образы, сочетающие классику и современные тренды, подчеркивают характер и помогают каждому клиенту выглядеть безупречно. Мы верим, что настоящая стрижка – это больше, чем просто уход за волосами, это деталь, формирующая впечатление.</h5>
+                            </div>
+                    </div>
+                    <div class="second_block">
+                            <div class="descriptionsecond">
+                                <h5>Мастера Kremen владеют всеми техниками барберинга: от идеального фейда до классического бритья опасной бритвой. Каждый штрих, каждое движение продуманы до мелочей, потому что мы понимаем, насколько важен качественный результат. Вдохновляемся мировыми тенденциями, но сохраняем индивидуальный подход, чтобы каждый клиент чувствовал себя в своей лучшей форме.</h5>
+                                <h5 class="boom">Настоящий мужской стиль рождается там, где ценят детали. Барбершоп Kremen – это место, где традиции сочетаются с современными технологиями, а атмосфера подчеркивает важность каждого момента. Здесь мужчина получает не просто стрижку, а уверенность в себе.</h5>
+                            </div>
+                            <div class="photo">
+                                <img src="img/barbershop.png" alt="barbershop">
+                            </div>
+                    </div> 
+                    <div class="faq_block">
+                            <div class="faq_container">
+                                <div class="title_of_block">
+                                    <h1>FAQ</h1>
+                                    <div class="answer_question">
+                                        <div class="question_item">
+                                            <div class="line"></div>
+                                            <div class="border_question_answer">
+                                                <div class="question_but">
+                                                    <h3>Нужно ли записываться в барбершоп заранее?</h1>
+                                                    <button class="toggle-btn" id="toggleBtn">+</button>
+                                                </div>
+                                                <div id="answer" class="answer">Рекомендуем записываться заранее, чтобы выбрать удобное время и мастера. Но если вы решили зайти спонтанно, мы постараемся найти свободное место.</div>
+                                            </div>
+                                        </div>
+                                        <div class="question_item">
+                                            <div class="line"></div>
+                                            <div class="border_question_answer">
+                                                <div class="question_but">
+                                                    <h3>Как выбрать подходящую стрижку?</h1>
+                                                    <button class="toggle-btnn" id="toggleBtnn">+</button>
+                                                </div>
+                                                <div id="answerr" class="answer">Наши мастера помогут подобрать форму, учитывая тип волос, структуру лица и ваш стиль. Вы также можете принести фото желаемой стрижки.</div>
+                                            </div>
+                                        </div>
+                                        <div class="question_item">
+                                            <div class="line"></div>
+                                            <div class="border_question_answer">
+                                                <div class="question_but">
+                                                    <h3>Чем барбершоп отличается от обычной парикмахерской?</h1>
+                                                    <button class="toggle-btn" id="toggleBtnnn">+</button>
+                                                </div>
+                                                <div id="answerrr" class="answer">Барбершоп – это место, где работают мастера, специализирующиеся исключительно на мужских стрижках и уходе за бородой. Здесь используются профессиональные техники, включая фейд, бритье опасной бритвой и оформление бороды.</div>
+                                            </div>
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="academia_block">
+            <div class="container_academia">
+                <div class="white_background_academia">
+                    <div class="right_text_inf_academia">
+                        <h1>хочешь стать успешным барбером?</h1>
+                        <div class="desk_aca">
+                            <h4>Наши курсы барбера — это идеальный старт для тех, кто хочет начать карьеру в сфере мужского груминга, а также отличная возможность для действующих профессионалов улучшить свои навыки и подняться на новый уровень мастерства.</h4>
+                        </div>
+                        <div class="begin_barber">
+                            <a href="academia.html">
+                                <button>Стать барбером</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="left_text_inf_academia">
+                        <img src="img/mayby.png" alt="wef">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <div class="container_aside">
+            <a href="https://wa.me/79312994464">
+                <center>
+                    <div class="aside_block">
+                        <img src="img/watsapp.svg" alt="icon_whatsapp">
+                        <div class="text_block">
+                            <div class="aside_text">Мне только спросить</div>
+                            <div class="secondinetext">Есть сомнения? Вопросы? Не стесняйся, спроси!</div>
+                        </div>
+                    </div>
+                </center>
+            </a>
+        </div>
+    </aside>
+    <footer id="footer">
+        <div class="footer_container">
+            <div class="footer_content">
+                <div class="footer_navigatioon_and_time">
+                    <div class="footer_content_for_nav">
+                        <nav class="footer_navigation_links">
+                            <ul>
+                                <li><a href="#">главная</a></li>
+                                <li><a href="#manities">услуги</a></li>
+                                <li><a href="franshiza.html">франшиза</a></li>
+                                <li><a href="academia.html">академия</a></li>
+                                <li><a href="vegansy.html">вакансии</a></li>
+                                <li><a href="#about_us">о нас</a></li>
+                            </ul>
+                        </nav>
+                        <p>с 10:00 до 21:00</p>
+                    </div>
+                </div>
+                <div class="second_line_content">
+                    <div class="button_logo_networks">
+                        <span class="logo_kremen">
+                            <svg viewBox="0 0 297 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M44.8664 0.512467H28.7618L13.8569 21.9617V0.422363H0V48.6795H13.8569V28.9897L27.6378 48.6795H44.7242L27.0735 24.2806L44.8664 0.512467Z" fill="white"/>
+                                <path d="M78.9026 32.0105C85.371 29.4876 89.1743 23.9297 89.1743 17.1815C89.1743 11.837 87.6236 7.76339 84.4557 4.87536C81.2879 1.98732 77.1479 0.521973 72.0832 0.521973H50.2783V48.6843H64.1352V33.841L74.9712 48.6843H92.5413L78.9026 32.0105ZM68.7731 22.6588H64.1352V12.7475H68.7731C72.9273 12.7475 75.0376 14.4452 75.0376 17.8122C75.0376 21.1792 72.9273 22.6635 68.7731 22.6635V22.6588Z" fill="white"/>
+                                <path d="M111.539 36.8713V30.327H132.352V18.6516H111.539V12.3302H134.463V0.521973H97.6816V48.6843H134.595V36.8761H111.534L111.539 36.8713Z" fill="white"/>
+                                <path d="M181.079 0.51709L170.67 25.3428L160.194 0.51709H142.33V48.6794H155.343V21.53L166.938 48.6794H174.193L185.788 21.53V48.6794H198.934V0.51709H181.07H181.079Z" fill="white"/>
+                                <path d="M221.24 36.8713V30.327H242.053V18.6516H221.24V12.3302H244.164V0.521973H207.383V48.6843H244.297V36.8761H221.235L221.24 36.8713Z" fill="white"/>
+                                <path d="M282.912 0.51709V26.2486L267.723 0.51709H252.05V48.6794H265.475V23.4269L280.665 48.6794H296.347V0.51709H282.908H282.912Z" fill="white"/>
+                                </svg>
+                        </span>
+                        <a class="sign_ing_haircutsec" href="https://n789227.yclients.com/select-city/1/select-branch?previousStepUrl=%2Fcompany%2F733381%2Fpersonal%2Fselect-services%3Fo%3D&o=">
+                            <button id="active_button"  class="sign_ing_haircut">ЗАПИСАТЬСЯ</button>
+                        </a>
+                    </div>
+                    <div class="network_links">
+                        <div class="mail_nimber">
+                            <p><a class="padmail" href="tel:+78129539463">+7 (812) 953-94-63</a></p>
+                            <p><a href="mailto:KremenBarbershop@yandex.ru">KremenBarbershop@yandex.ru</a></p>
+                        </div>
+                        <div class="svg_sochial_links">
+                            <a class="networlkpadright" href="@Kremenbarber">
+                                <span>
+                                    <svg viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_332_3679)">
+                                        <path d="M23.5514 1.90601C35.5697 1.90601 45.3116 11.6479 45.3116 23.6662C45.3116 35.6845 35.5697 45.4264 23.5514 45.4264C11.5332 45.4264 1.79127 35.6845 1.79127 23.6662C1.79127 11.6479 11.5332 1.90601 23.5514 1.90601Z" stroke="white" stroke-width="2.9673"/>
+                                        <path d="M34.0114 15.2683L30.7018 31.9521C30.7018 31.9521 30.2388 33.1088 28.9667 32.5541L21.3308 26.6995L18.5533 25.3576L13.8791 23.7841C13.8791 23.7841 13.1618 23.5289 13.0928 22.9742C13.0229 22.4185 13.9027 22.118 13.9027 22.118L32.4842 14.8288C32.4842 14.8288 34.0114 14.1579 34.0114 15.2683Z" fill="#FEFEFE"/>
+                                        <path d="M24.3135 29.3464L21.0621 32.3109C21.0621 32.3109 20.8087 32.5034 20.53 32.3826C20.1205 32.3236 18.9193 28.0416 18.1738 25.4866L18.7976 25.0898L24.3135 29.3464Z" fill="#737373" fill-opacity="0.38"/>
+                                        <path d="M20.53 32.3822C20.0869 32.3405 18.4017 26.2326 18.1738 25.4863L30.2524 17.8149C30.8808 17.4336 31.2167 17.7341 30.6756 18.2389C30.3024 18.5876 21.1874 26.781 21.1874 26.781L20.53 32.3822Z" fill="#707070" fill-opacity="0.4"/>
+                                        </g>
+                                        <defs>
+                                        <clipPath id="clip0_332_3679">
+                                        <rect width="46.4876" height="46.4876" fill="white" transform="translate(0.308594 0.422363)"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
+                            </a>
+                            <a class="networlkpadleft" href="#">
+                                <span>
+                                    <svg viewBox="0 0 48 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_332_3674)">
+                                        <path d="M23.8327 4.58894C30.0391 4.58894 30.7742 4.61264 33.2253 4.72441C35.7579 4.83999 38.3683 5.418 40.2137 7.26335C42.0767 9.1263 42.6369 11.7111 42.7529 14.2521C42.8647 16.7032 42.8884 17.4382 42.8884 23.6446C42.8884 29.851 42.8647 30.5862 42.7529 33.0371C42.6379 35.5569 42.0484 38.1911 40.214 40.0256C38.35 41.8896 35.7685 42.4488 33.2251 42.5649C30.7744 42.6768 30.0394 42.7004 23.8326 42.7004C17.6258 42.7004 16.8908 42.6767 14.44 42.5649C11.9398 42.4508 9.27107 41.8453 7.45161 40.026C5.59846 38.1728 5.02762 35.564 4.91231 33.0371C4.80045 30.5861 4.77684 29.851 4.77684 23.6446C4.77684 17.4382 4.80054 16.7031 4.91231 14.252C5.02689 11.7413 5.62388 9.09107 7.45124 7.26362C9.31066 5.40411 11.9039 4.84009 14.44 4.72432C16.8911 4.61264 17.6263 4.58894 23.8327 4.58894ZM23.8327 0.400879C17.5201 0.400879 16.7285 0.427573 14.2492 0.540705C10.6548 0.704774 7.08824 1.70408 4.49011 4.30203C1.88226 6.90988 0.89258 10.4695 0.728693 14.0613C0.615561 16.5405 0.588867 17.332 0.588867 23.6447C0.588867 29.9574 0.615561 30.7489 0.728693 33.2281C0.89249 36.8169 1.89724 40.3944 4.49002 42.9872C7.09469 45.592 10.6616 46.5849 14.2492 46.7486C16.7285 46.8618 17.5201 46.8885 23.8327 46.8885C30.1454 46.8885 30.9369 46.8618 33.4161 46.7487C37.0067 46.5849 40.58 45.5825 43.1753 42.9874C45.7841 40.3786 46.7728 36.8207 46.9367 33.2281C47.0498 30.7489 47.0765 29.9574 47.0765 23.6447C47.0765 17.3321 47.0498 16.5405 46.9367 14.0613C46.7728 10.4688 45.7715 6.89844 43.1754 4.30221C40.5744 1.70117 36.9973 0.704138 33.416 0.540705C30.9369 0.427573 30.1454 0.400879 23.8327 0.400879Z" fill="#FEFEFE"/>
+                                        <g filter="url(#filter0_d_332_3674)">
+                                        <path d="M23.8335 11.7085C17.2415 11.7085 11.8975 17.0524 11.8975 23.6446C11.8975 30.2366 17.2415 35.5805 23.8335 35.5805C30.4256 35.5805 35.7696 30.2366 35.7696 23.6446C35.7696 17.0525 30.4256 11.7085 23.8335 11.7085ZM23.8335 31.3925C19.5545 31.3925 16.0856 27.9236 16.0856 23.6446C16.0856 19.3655 19.5545 15.8967 23.8335 15.8967C28.1126 15.8967 31.5814 19.3655 31.5814 23.6446C31.5814 27.9236 28.1126 31.3925 23.8335 31.3925Z" fill="#FEFEFE"/>
+                                        </g>
+                                        <path d="M36.2385 14.0263C37.7789 14.0263 39.0277 12.7775 39.0277 11.237C39.0277 9.69655 37.7789 8.44775 36.2385 8.44775C34.698 8.44775 33.4492 9.69655 33.4492 11.237C33.4492 12.7775 34.698 14.0263 36.2385 14.0263Z" fill="white"/>
+                                        </g>
+                                        <defs>
+                                        <filter id="filter0_d_332_3674" x="7.94107" y="11.7085" width="31.7849" height="31.7849" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                                        <feOffset dy="3.9564"/>
+                                        <feGaussianBlur stdDeviation="1.9782"/>
+                                        <feComposite in2="hardAlpha" operator="out"/>
+                                        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_332_3674"/>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_332_3674" result="shape"/>
+                                        </filter>
+                                        <clipPath id="clip0_332_3674">
+                                        <rect width="46.4876" height="46.4876" fill="white" transform="translate(0.588867 0.400879)"/>
+                                        </clipPath>
+                                        </defs>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="thre_line_content">
+                    <div class="name_of_map"><div id="adress_id"></div></div>
+                        <div class="right_map_footer">
+                            <div class="map">
+                        <div class="map_stiles" id="map"></div>
+                    </div>
+                </div>
+                <div class="last_line">
+                    <div class="links">
+                        <p>ИНФОРМАЦИЯ НА САЙТЕ НЕ ЯВЛЯЕТСЯ ПУБЛИЧНОЙ ОФЕРТОЙ</p>
+                        <a href="https://t.me/pparhaty">&copy; 2024 Pakhomets Nikita Sergeevich</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="script/yclients_api.js?v=2"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const jsonData = {
+            "main_services": [
+                {"name": "стрижка для студентов", "price": {"min": 1190, "mid": "-", "max": null}},
+                {"name": "стрижка", "price": {"min": 1500, "mid": 1800, "max": 2100, "premium": 2500}},
+                {"name": "стрижка машинкой, 1 насадка", "price": {"min": 600, "mid": 700, "max": 800, "premium": 900}},
+                {"name": "бритье начисто шейвером голова/лицо", "price": {"min": 900, "mid": 1100, "max": 1300, "premium": 1500}},
+                {"name": "удлиненная стрижка", "price": {"min": 1800, "mid": 1800, "max": 2100, "premium": 2500}},
+                {"name": "бритье головы", "price": {"min": 1500, "mid": 1800, "max": 2100, "premium": 2500}},
+                {"name": "детская стрижка от 4 до 10 лет", "price": {"min": 1200, "mid": 1500, "max": 1700, "premium": 2000}},
+                {"name": "оформление бороды", "price": {"min": 1200, "mid": 1400, "max": 1700, "premium": 2100}},
+                {"name": "коррекция бороды", "price": {"min": 900, "mid": 1100, "max": 1400, "premium": 1800}},
+                {"name": "коррекция стрижки/ укладка волос", "price": {"min": 800, "mid": 1000, "max": 1200, "premium": 1600}}
+            ],
+            "additional_services": [
+                {"name": "комплексный уход за кожей лица от VOLCANO", "price": {"min": 1200, "mid": 1200, "max": 1200, "premium": 1200}},
+                {"name": "воск (все включено)", "price": {"min": 400, "mid": 400, "max": 400, "premium": 400}},
+                {"name": "укладка волос", "price": {"min": 500, "mid": 500, "max": 500, "premium": 500}},
+                {"name": "камуфляж бороды (тонировка)", "price": {"min": 800, "mid": 800, "max": 800, "premium": 800}},
+                {"name": "тонирование головы", "price": {"min": 1400, "mid": 1400, "max": 1400, "premium": 1400}}
+            ],
+            "service_packages": [
+                {"name": "стрижка + оформление бороды/бритьё", "price": {"min": 2500, "mid": 2900, "max": 3500, "premium": 4000}},
+                {"name": "стрижка/коррекция бороды", "price": {"min": 2200, "mid": 2600, "max": 3200, "premium": 3700}},
+                {"name": "папа + сын(до 10 лет)", "price": {"min": 2500, "mid": 3100, "max": 3400, "premium": 4000}},
+                {"name": "стрижка + оформление бороды + Камуфляж", "price": {"min": 3300, "mid": 3700, "max": 4300, "premium": 4800}}
+            ]
+        };
+    
+        // Функция для форматирования цены
+        function formatPrice(price) {
+            if (price === null || price === undefined || price === "-") return '';
+            return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+        }
+    
+        // Функция для создания элемента услуги
+        function createServiceElement(service) {
+            const serviceRow = document.createElement('div');
+            serviceRow.className = 'service-row';
+    
+            const serviceName = document.createElement('div');
+            serviceName.className = 'service-name';
+            serviceName.textContent = service.name;
+    
+            const pricesContainer = document.createElement('div');
+            pricesContainer.className = 'opapapapapa';
+    
+            // Для всех типов услуг (основные, дополнительные, пакеты)
+            const priceTypes = ['min', 'mid', 'max', 'premium'];
+            priceTypes.forEach(type => {
+                if (service.price[type] !== undefined && service.price[type] !== null) {
+                    const priceElement = document.createElement('div');
+                    priceElement.className = 'service-price';
+                    priceElement.textContent = formatPrice(service.price[type]);
+                    pricesContainer.appendChild(priceElement);
+                }
+            });
+    
+            serviceRow.appendChild(serviceName);
+            serviceRow.appendChild(pricesContainer);
+    
+            return serviceRow;
+        }
+    
+        // Рендеринг всех категорий
+        function renderServices() {
+            // Основные услуги
+            const mainContainer = document.getElementById('main-services');
+            if (mainContainer) {
+                mainContainer.innerHTML = '';
+                jsonData.main_services.forEach(service => {
+                    mainContainer.appendChild(createServiceElement(service));
+                });
+            }
+    
+            // Дополнительные услуги
+            const additionalContainer = document.getElementById('addi');
+            if (additionalContainer) {
+                additionalContainer.innerHTML = '';
+                jsonData.additional_services.forEach(service => {
+                    additionalContainer.appendChild(createServiceElement(service));
+                });
+            }
+    
+            // Пакеты услуг
+            const packagesContainer = document.getElementById('service_packages');
+            if (packagesContainer) {
+                packagesContainer.innerHTML = '';
+                jsonData.service_packages.forEach(service => {
+                    packagesContainer.appendChild(createServiceElement(service));
+                });
+            }
+        }
+    
+        // Переключение между вкладками
+        document.getElementById('btn-services')?.addEventListener('click', function() {
+            document.getElementById('services-content').style.display = 'block';
+            document.getElementById('additional-services-content').style.display = 'none';
+        });
+    
+        document.getElementById('btn-additional-services')?.addEventListener('click', function() {
+            document.getElementById('services-content').style.display = 'none';
+            document.getElementById('additional-services-content').style.display = 'block';
+        });
+    
+        // Запускаем рендеринг
+        renderServices();
+    });
+    </script>
+<script src="script/script.js?v=2"></script> 
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://daruse.ru/assets/js/snowfall.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(document).snowfall({
+                flakeCount: 50,        // Количество снежинок на странице
+                flakeColor: '#ffffff', // Цвет снежинок
+                minSize: 5,           // Минимальный размер снежинки
+                maxSize: 10,           // Максимальный размер снежинки
+                maxSpeed: 6,           // Максимальная скорость падения
+                minSpeed: 1,           // Минимальная скорость падения
+                round: true,           // Округлённые снежинки
+                shadow: false          // Снежинки с тенью
+            });
+        });
+    </script>    -->
+</body>
+</html>
