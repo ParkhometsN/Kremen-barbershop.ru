@@ -3,8 +3,8 @@
 ymaps.ready(init);
 function init() {
     var myMap = new ymaps.Map("map", {
-        center: [59.867697, 30.355169], 
-        zoom:12, // Уровень зума
+        center: [59.963539, 30.273171], 
+        zoom:10, // Уровень зума
         controls: ['zoomControl'], 
         suppressMapOpenBlock: true 
     });
@@ -38,5 +38,21 @@ function init() {
 
     secondPlacemark.events.add('click', function () {
         window.location.href = 'winer_park.html';
+    });
+    firstPlacemark.events.add('click', function () {
+        window.location.href = 'mezhdunarodaya.html'; 
+    });
+
+    var secondPlacemark = new ymaps.Placemark([60.032740, 30.200336], {}, {
+        iconLayout: 'default#image',
+        iconImageHref: 'img/mark_logo_map.png', 
+        iconImageSize: [30, 37], 
+        iconImageOffset: [-15, -39] 
+    });
+
+    myMap.geoObjects.add(secondPlacemark);
+
+    secondPlacemark.events.add('click', function () {
+        window.location.href = 'Komendansky-Avenue.html';
     });
 }

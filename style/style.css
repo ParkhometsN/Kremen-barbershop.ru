@@ -110,7 +110,7 @@ input[type]:checked ~ span.mid {
 }
 
 .content_padding {
-    z-index: 100000;
+    z-index: 9000;
     background-color: #ffffff;
     margin-top: 0px;
     width: 100%;

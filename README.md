@@ -1,2 +1,0 @@
-# Kremen-barbershop.ru
-

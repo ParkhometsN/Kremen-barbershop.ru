@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // document.getElementById('closed_app').addEventListener('click', function() {
 //     document.getElementById('banner_download_app').classList.add('closed');
 // });
-window.addEventListener('load', function() {
-    document.querySelector('.loader').style.display = 'none';
-    document.body.classList.add('loaded');
-});
+// window.addEventListener('load', function() {
+//     document.querySelector('.loader').style.display = 'none';
+//     document.body.classList.add('loaded');
+// });

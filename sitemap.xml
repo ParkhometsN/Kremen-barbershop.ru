@@ -31,6 +31,25 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+    <url>
+        <loc>https://kremen-barbershop.ru/Komendansky-Avenue.html</loc>
+        <lastmod>2025-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+        <url>
+        <loc>https://kremen-barbershop.ru/mezhdunarodaya.html</loc>
+        <lastmod>2025-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    </url>
+        <url>
+        <loc>https://kremen-barbershop.ru/winer_park.html</loc>
+        <lastmod>2025-04-04</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
 
     <!-- Добавь другие страницы по аналогии -->
 </urlset>

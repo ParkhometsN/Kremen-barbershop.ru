@@ -3,17 +3,17 @@ body{
 }
 
 .loader {
-    position: fixed; /* фиксируем по центру экрана */
+    position: fixed;
     top: 50%;
     z-index: 99999;
     left: 50%;
-    transform: translate(-50%, -50%); /* центрирование */
+    transform: translate(-50%, -50%); 
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     max-width: 6rem;
-}
+}a
 
 .loader img{
     z-index: 50;
@@ -43,7 +43,7 @@ body{
 }
 
 .loaded .loader {
-    opacity: 0; /* Исчезновение после загрузки */
+    opacity: 0; 
     pointer-events: none;
 }
 
