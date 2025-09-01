@@ -210,7 +210,7 @@ flex-shrink: 0;
 .container_about_us_fil img{
     width: 100%;
     object-fit: cover;
-    height: 120%;
+    height: 22vw;
     border-radius: 1vw;
 }
 .right_desck_ab_fil{
