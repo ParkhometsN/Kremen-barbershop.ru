@@ -7,8 +7,6 @@
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
-
-    <!-- Страница франшизы -->
     <url>
         <loc>https://kremen-barbershop.ru/franshiza.html</loc>
         <lastmod>2025-04-04</lastmod>
@@ -16,7 +14,6 @@
         <priority>0.8</priority>
     </url>
 
-    <!-- Страница академии -->
     <url>
         <loc>https://kremen-barbershop.ru/academia.html</loc>
         <lastmod>2025-04-04</lastmod>
@@ -24,7 +21,6 @@
         <priority>0.8</priority>
     </url>
 
-    <!-- Страница для веганов -->
     <url>
         <loc>https://kremen-barbershop.ru/vegansy.html</loc>
         <lastmod>2025-04-04</lastmod>
@@ -50,6 +46,4 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
-
-    <!-- Добавь другие страницы по аналогии -->
 </urlset>
