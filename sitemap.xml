@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!-- Главная страница -->
     <url>
         <loc>https://kremen-barbershop.ru/</loc>
         <lastmod>2025-04-04</lastmod>
@@ -13,14 +12,12 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
-
     <url>
         <loc>https://kremen-barbershop.ru/academia.html</loc>
         <lastmod>2025-04-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
-
     <url>
         <loc>https://kremen-barbershop.ru/vegansy.html</loc>
         <lastmod>2025-04-04</lastmod>
@@ -33,17 +30,16 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
-        <url>
+    <url>
         <loc>https://kremen-barbershop.ru/mezhdunarodaya.html</loc>
         <lastmod>2025-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
-    </url>
-        <url>
+    <url>
         <loc>https://kremen-barbershop.ru/winer_park.html</loc>
         <lastmod>2025-04-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
-</urlset>
+</urlset> 
