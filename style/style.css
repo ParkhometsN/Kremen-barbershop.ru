@@ -1074,8 +1074,8 @@ z-index: 10;
     align-items: center;
     cursor: pointer;
     border-radius: 2rem;
-    width: 18rem;
-    height: 4rem;
+    width: 14rem;
+    height: 3rem;
     transition: 0.3s;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
 }
@@ -1095,7 +1095,7 @@ z-index: 10;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: black;
 }
 
@@ -1103,9 +1103,9 @@ z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1.5rem;
+    width: 1rem;
     fill: black;
-    height: 1.5rem;
+    height: 1rem;
     
 }
 
