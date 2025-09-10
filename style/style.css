@@ -806,6 +806,9 @@ footer{
     opacity: 1;
     transition: opacity 0.5s ease;
 }
+    .button_for_calling{
+        visibility: hidden;
+    }
 .begin_barber a:hover{
     opacity: 0.8;
 }
@@ -1052,4 +1055,78 @@ z-index: 10;
 .container_picture_barber{
     width: 20vw;
     height: 21vw;
+}
+
+
+
+
+.callfosig {
+    position: fixed;
+    bottom: 5%; /* Заменяем top: 90% на bottom для более точного позиционирования снизу */
+    left: 50%; /* Устанавливаем элемент на середину по горизонтали */
+    transform: translateX(-50%); /* Смещаем элемент влево на половину его ширины для точного центрирования */
+    z-index: 999123;
+    background-color: #f3f7fe;
+    color: #3b82f6;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 2rem;
+    width: 18rem;
+    height: 4rem;
+    transition: 0.3s;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.callfosig:hover {
+    background-color: #3b82f6;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #fff;
+}
+
+.button_for_calling {
+    position: relative;
+}
+
+.callfosig a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1rem;
+    color: black;
+}
+
+.callfosig a svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    fill: black;
+    height: 1.5rem;
+    
+}
+
+.callfosig a svg:hover {
+    fill: white !important; /* Цвет заливки SVG при наведении */
+}
+.callfosig a:hover{
+    color: white;
+}
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+}
+
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0); 
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }

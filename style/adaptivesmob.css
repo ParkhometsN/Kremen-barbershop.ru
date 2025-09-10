@@ -1148,7 +1148,6 @@ padding-top: 4rem;
         visibility: visible;
         z-index: 999999;
         color: black;
-        position: fixed;
         bottom: 20px; /* Отступ от нижнего края экрана */
         left: 50%; /* Размещение по центру по горизонтали */
         transform: translateX(-50%); /* Сдвиг на половину ширины элемента для точного центрирования */
@@ -1172,6 +1171,9 @@ padding-top: 4rem;
     }
     .adwawd:active{
         opacity: 0.5;
+    }
+    .adwawd{
+        position: fixed;
     }
     .courses_block_title_second {
         position: relative;
@@ -1253,6 +1255,9 @@ padding-top: 4rem;
         padding-bottom: 7vw;
         padding-top: 13vw;
         letter-spacing: -0.1vw;
+    }
+    .button_for_calling{
+        visibility: visible;
     }
     .container_header_mainmm {
         margin-top: 0px;
@@ -1544,7 +1549,7 @@ padding-top: 4rem;
         visibility: visible;
         z-index: 999999;
         color: black;
-        position: fixed;
+
         bottom: 20px; /* Отступ от нижнего края экрана */
         left: 50%; /* Размещение по центру по горизонтали */
         transform: translateX(-50%); /* Сдвиг на половину ширины элемента для точного центрирования */
@@ -1647,7 +1652,6 @@ padding-top: 4rem;
         visibility: visible;
         z-index: 999999;
         color: black;
-        position: fixed;
         bottom: 20px; /* Отступ от нижнего края экрана */
         left: 50%; /* Размещение по центру по горизонтали */
         transform: translateX(-50%); /* Сдвиг на половину ширины элемента для точного центрирования */
