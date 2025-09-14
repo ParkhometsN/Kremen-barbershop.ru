@@ -4,7 +4,7 @@ ymaps.ready(init);
 function init() {
     var myMap = new ymaps.Map("map", {
         center: [59.963539, 30.273171], 
-        zoom:10, // Уровень зума
+        zoom:9, // Уровень зума
         controls: ['zoomControl'], 
         suppressMapOpenBlock: true 
     });
@@ -14,8 +14,8 @@ function init() {
     
     var firstPlacemark = new ymaps.Placemark([59.866522, 30.387769], {}, {
         iconLayout: 'default#image', 
-        iconImageHref: 'img/mark_logo_map.png', 
-        iconImageSize: [30, 37], 
+        iconImageHref: 'img/mark_fill/mezh.svg', 
+        iconImageSize: [130, 137], 
         iconImageOffset: [-15, -39] 
     });
 
@@ -29,8 +29,8 @@ function init() {
 
     var secondPlacemark = new ymaps.Placemark([59.872331, 30.320962], {}, {
         iconLayout: 'default#image',
-        iconImageHref: 'img/mark_logo_map.png', 
-        iconImageSize: [30, 37], 
+        iconImageHref: 'img/mark_fill/park.svg', 
+        iconImageSize: [130, 137], 
         iconImageOffset: [-15, -39] 
     });
 
@@ -45,8 +45,8 @@ function init() {
 
     var secondPlacemark = new ymaps.Placemark([60.032740, 30.200336], {}, {
         iconLayout: 'default#image',
-        iconImageHref: 'img/mark_logo_map.png', 
-        iconImageSize: [30, 37], 
+        iconImageHref: 'img/mark_fill/komendan.svg', 
+        iconImageSize: [130, 137], 
         iconImageOffset: [-15, -39] 
     });
 
