@@ -1,4 +1,4 @@
-[10-Sep-2025 16:10:08 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
+\[10-Sep-2025 16:10:08 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
 [10-Sep-2025 16:10:09 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
 [10-Sep-2025 16:13:46 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
 [12-Sep-2025 14:29:12 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
@@ -9,3 +9,22 @@
 [12-Sep-2025 14:34:43 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
 [12-Sep-2025 14:35:11 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
 [12-Sep-2025 14:35:20 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
+[15-Sep-2025 13:01:55 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
+[15-Sep-2025 13:02:09 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
+[15-Sep-2025 13:08:34 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
+[15-Sep-2025 13:08:53 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
+[15-Sep-2025 13:08:57 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
+[15-Sep-2025 13:09:02 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
+[15-Sep-2025 13:11:13 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
+[15-Sep-2025 13:43:56 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
+[18-Sep-2025 16:00:43 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
+[18-Sep-2025 16:22:44 Europe/Moscow] PHP Deprecated:  Creation of dynamic property d::$f is deprecated in /var/www/kremenba/public_html/admin/index.php on line 1019
+[18-Sep-2025 19:10:02 Europe/Moscow] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/kremenba/public_html/admin/index.php on line 793
+[20-Sep-2025 00:16:59 Europe/Moscow] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/kremenba/public_html/admin/index.php on line 793
+[20-Sep-2025 00:18:27 Europe/Moscow] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/kremenba/public_html/admin/index.php on line 793
+[20-Sep-2025 18:48:46 Europe/Moscow] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/kremenba/public_html/admin/index.php on line 793
+[21-Sep-2025 01:13:15 Europe/Moscow] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/kremenba/public_html/admin/index.php on line 793
+[21-Sep-2025 16:47:38 Europe/Moscow] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/kremenba/public_html/admin/index.php on line 793
+[21-Sep-2025 22:55:19 Europe/Moscow] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/kremenba/public_html/admin/index.php on line 793
+[22-Sep-2025 20:25:23 Europe/Moscow] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/kremenba/public_html/admin/index.php on line 793
+[24-Sep-2025 00:59:04 Europe/Moscow] PHP Deprecated:  substr(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/kremenba/public_html/admin/index.php on line 793
